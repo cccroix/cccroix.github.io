@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cccroix.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: cccroix
+paginate: 20
 
 # Build settings
 markdown: kramdown
