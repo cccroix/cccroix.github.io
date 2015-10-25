@@ -4,9 +4,9 @@ email: cc@rezometz.org
 description: > # this means to ignore newlines until "baseurl:"
     La Communauté Chrétienne de CentraleSupélec à Metz
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://cccroixmetz.github.io" # the base hostname & protocol for your site
+url: "https://cccroix.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username: cccroixmetz
+github_username: cccroix
 
 # Build settings
 markdown: kramdown
