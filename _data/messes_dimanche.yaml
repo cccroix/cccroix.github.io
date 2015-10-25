@@ -23,8 +23,8 @@
   lieu: Borny
   lien_lieu: http://osm.org/go/0DF54gyiU
   horaire: 11h
-  remarque: none
-  site: none
+  remarque: null
+  site: null
   
 # Metz
 
@@ -32,20 +32,20 @@
   lieu: Metz
   lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 9h
-  remarque: none
-  site: none
+  remarque: null
+  site: null
   
 - eglise: Cathédrale St Étienne
   lieu: Metz
   lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 10h
   remarque: grand messe, grégorien
-  site: none
+  site: null
   
 - eglise: Cathédrale St Étienne
   lieu: Metz
   lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 11h30
-  remarque: none
-  site: none
+  remarque: null
+  site: null
 

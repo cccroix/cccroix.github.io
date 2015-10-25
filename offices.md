@@ -14,10 +14,10 @@ published: true
   <li><strong>{{messe.horaire}}
       –</strong>  {{ messe.eglise }} (<a href="{{messe.lien_lieu}}">
       {{messe.lieu}}</a> )
-      {% if messe.remarque != "none" %}
+      {% if messe.remarque  %}
       (<em>{{ messe.remarque }}</em>)
       {% endif %}
-      {% if messe.site != "none" %}
+      {% if messe.site  %}
       – <a href="{{ messe.site }}">Site</a>
       {% endif %}   
   </li>
@@ -32,10 +32,10 @@ published: true
   <li><strong>{{messe.horaire}}
       –</strong>  {{ messe.eglise }} (<a href="{{messe.lien_lieu}}">
       {{messe.lieu}}</a> )
-      {% if messe.remarque != "none" %}
+      {% if messe.remarque  %}
       (<em>{{ messe.remarque }}</em>)
       {% endif %}
-      {% if messe.site != "none" %}
+      {% if messe.site  %}
       – <a href="{{ messe.site }}">Site</a>
       {% endif %}   
   </li>
