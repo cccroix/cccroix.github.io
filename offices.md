@@ -13,7 +13,7 @@ published: true
 {% if messe.lieu == "Queuleu" or messe.lieu == "Borny" %}
   <li><strong>{{messe.horaire}}
       –</strong>  {{ messe.eglise }} 
-      (<a href="{{messe.lien_lieu}}">{{messe.lieu}}</a> )
+      (<a href="{{messe.lien_lieu}}">{{messe.lieu}}</a>)
       {% if messe.remarque  %}
       (<em>{{ messe.remarque }}</em>)
       {% endif %}
@@ -31,7 +31,7 @@ published: true
 {% if messe.lieu == "Metz" %}
   <li><strong>{{messe.horaire}}
       –</strong>  {{ messe.eglise }} 
-      (<a href="{{messe.lien_lieu}}">{{messe.lieu}}</a> )
+      (<a href="{{messe.lien_lieu}}">{{messe.lieu}}</a>)
       {% if messe.remarque  %}
       (<em>{{ messe.remarque }}</em>)
       {% endif %}
