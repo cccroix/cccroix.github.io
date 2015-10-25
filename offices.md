@@ -12,8 +12,8 @@ published: true
 {% for messe in site.data.messes_dimanche %}
 {% if messe.lieu == "Queuleu" or messe.lieu == "Borny" %}
   <li><strong>{{messe.horaire}}
-      –</strong>  {{ messe.eglise }} (<a href="{{messe.lien_lieu}}">
-      {{messe.lieu}}</a> )
+      –</strong>  {{ messe.eglise }} 
+      (<a href="{{messe.lien_lieu}}">{{messe.lieu}}</a> )
       {% if messe.remarque  %}
       (<em>{{ messe.remarque }}</em>)
       {% endif %}
@@ -30,8 +30,8 @@ published: true
 {% for messe in site.data.messes_dimanche %}
 {% if messe.lieu == "Metz" %}
   <li><strong>{{messe.horaire}}
-      –</strong>  {{ messe.eglise }} (<a href="{{messe.lien_lieu}}">
-      {{messe.lieu}}</a> )
+      –</strong>  {{ messe.eglise }} 
+      (<a href="{{messe.lien_lieu}}">{{messe.lieu}}</a> )
       {% if messe.remarque  %}
       (<em>{{ messe.remarque }}</em>)
       {% endif %}
