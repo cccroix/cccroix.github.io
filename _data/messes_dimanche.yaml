@@ -7,42 +7,44 @@
   
 - eglise: Immaculée Conception
   lieu: Queuleu
-  lien_lieu: 
+  lien_lieu: http://osm.org/go/0DF5PydYf
   horaire: 9h
   remarque: forme extraordinaire
   site: http://motuproprio-metz.e-monsite.com/
   
 - eglise: Immaculée Conception
   lieu: Queuleu
-  lien_lieu: 
+  lien_lieu: http://osm.org/go/0DF5PydYf
   horaire: 10h30
   remarque: ordinaire
   site: http://ame-metz.com/index.php/horaire-des-messes#year=2014&month=9&day=21&view=month
   
 - eglise: Saint Pierre
   lieu: Borny
-  lien_lieu: 
+  lien_lieu: http://osm.org/go/0DF54gyiU
   horaire: 11h
   remarque: none
   site: none
   
+# Metz
+
 - eglise: Cathédrale St Étienne
   lieu: Metz
-  lien_lieu: 
+  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 9h
   remarque: none
   site: none
   
 - eglise: Cathédrale St Étienne
   lieu: Metz
-  lien_lieu: 
+  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 10h
   remarque: grand messe, grégorien
   site: none
   
 - eglise: Cathédrale St Étienne
   lieu: Metz
-  lien_lieu: 
+  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 11h30
   remarque: none
   site: none
