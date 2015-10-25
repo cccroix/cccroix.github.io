@@ -9,7 +9,6 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        {% comment %}<span class="post-meta">{{ post.date | localize: ":short" }}</span>{% endcomment %}
         <span class="post-meta">
         {% assign dy = post.date | date: "%a" %}{% case dy %}
             {% when "Mon" %}lundi
