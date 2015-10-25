@@ -8,13 +8,13 @@ layout: default
     <p class="post-meta">
         {% assign dy = page.date | date: "%a" %}
         {% case dy %}
-            {% when "Mon" %}lundi
-            {% when "Tue" %}mardi
-            {% when "Wed" %}mercredi
-            {% when "Thu" %}jeudi
-            {% when "Fri" %}vendredi
-            {% when "Sat" %}samedi
-            {% when "Sun" %}dimanche
+            {% when "Mon" %}Lundi
+            {% when "Tue" %}Mardi
+            {% when "Wed" %}Mercredi
+            {% when "Thu" %}Jeudi
+            {% when "Fri" %}Vendredi
+            {% when "Sat" %}Samedi
+            {% when "Sun" %}Dimanche
         {% else %}{{ dy }}
         {% endcase %}
 
