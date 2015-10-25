@@ -1,6 +1,6 @@
 # Site settings
 title: CC†
-email: cc@rezometz.org
+email: c@rezometz.org
 description: > # this means to ignore newlines until "baseurl:"
     La Communauté Chrétienne de CentraleSupélec à Metz
 baseurl: "" # the subpath of your site, e.g. /blog/
