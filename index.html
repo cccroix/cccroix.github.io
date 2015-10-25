@@ -10,31 +10,41 @@ layout: default
     {% for post in site.posts %}
       <li>
         <span class="post-meta">
-        {% assign dy = post.date | date: "%a" %}{% case dy %}
-            {% when "Mon" %}lundi
-            {% when "Tue" %}mardi
-            {% when "Wed" %}mercredi
-            {% when "Thu" %}jeudi
-            {% when "Fri" %}vendredi
-            {% when "Sat" %}samedi
-            {% when "Sun" %}dimanche
-        {% else %}{{ dy }}
-        {% endcase %}
-        {{ post.date | date: "%d" }}
-        {% assign m = post.date | date: "%-m" %}{% case m %}
-            {% when '1' %}janvier
-            {% when '2' %}février
-            {% when '3' %}mars
-            {% when '4' %}avril
-            {% when '5' %}mai
-            {% when '6' %}juin
-            {% when '7' %}juillet
-            {% when '8' %}août
-            {% when '9' %}septembre
-            {% when '10' %}octobre
-            {% when '11' %}novembre
-            {% when '12' %}décembre
-        {% endcase %}{{ post.date | date: '%Y' }}
+            {% assign dy = post.date | date: "%a" %}
+            {% case dy %}
+                {% when "Mon" %}lundi
+                {% when "Tue" %}mardi
+                {% when "Wed" %}mercredi
+                {% when "Thu" %}jeudi
+                {% when "Fri" %}vendredi
+                {% when "Sat" %}samedi
+                {% when "Sun" %}dimanche
+            {% else %}{{ dy }}
+            {% endcase %}
+
+            {% assign d = post.date | date: "%-d"  %}
+            {% case d %}
+                {% when '1' %}{{ d }}er
+                {% else %}{{ d }}
+            {% endcase %}
+
+            {% assign m = post.date | date: "%-m" %}
+            {% case m %}
+                {% when '1' %}janvier
+                {% when '2' %}février
+                {% when '3' %}mars
+                {% when '4' %}avril
+                {% when '5' %}mai
+                {% when '6' %}juin
+                {% when '7' %}juillet
+                {% when '8' %}août
+                {% when '9' %}septembre
+                {% when '10' %}octobre
+                {% when '11' %}novembre
+                {% when '12' %}décembre
+            {% endcase %}
+
+            {{ post.date | date: '%Y' }}
         </span>
 
         <h2>
