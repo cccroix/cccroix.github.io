@@ -27,12 +27,33 @@
   site: null
   
 # Metz
+#
+- eglise: Ste Thérèse
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5HPd3p--
+  horaire: 8h
+  remarque: null
+  site: null
 
 - eglise: Cathédrale St Étienne
   lieu: Metz
   lien_lieu: http://osm.org/go/0DF5ZV8RZ--
   horaire: 9h
   remarque: null
+  site: null
+
+- eglise: St Maximin
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5Zp34t
+  horaire: 9h
+  remarque: null
+  site: null
+
+- eglise: Ste Ségolène
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ckMbG
+  horaire: 9h30
+  remarque: du premier mai au premier novembre
   site: null
   
 - eglise: Cathédrale St Étienne
@@ -41,74 +62,18 @@
   horaire: 10h
   remarque: grand messe, grégorien
   site: null
-  
-- eglise: Cathédrale St Étienne
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
-  horaire: 11h30
-  remarque: null
-  site: null
-  
-- eglise: Notre-Dame
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ZHq~S
-  horaire: 18h30
-  remarque: null
-  site: null
-  
-- eglise: St Martin
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ZIIw8
-  horaire: 11h
-  remarque: null
-  site: null
-  
-- eglise: St Maximin
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5Zp34t
-  horaire: 9h
-  remarque: null
-  site: null
-  
-- eglise: St Clément
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5cWRN4--
-  horaire: 10h30
-  remarque: null
-  site: null
-  
-- eglise: Ste Ségolène
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ckMbG
-  horaire: 9h30
-  remarque: du premier mai au premier novembre
-  site: null
-  
+
 - eglise: St Simon et St Jude
   lieu: Metz
   lien_lieu: http://osm.org/go/0DF5XLbPw--
   horaire: 10h15
   remarque: null
   site: null
-  
-- eglise: Ste Thérèse
+
+- eglise: St Clément
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5HPd3p--
-  horaire: 8h
-  remarque: null
-  site: null
-  
-- eglise: Ste Thérèse
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5HPd3p--
-  horaire: 11h
-  remarque: null
-  site: null
-  
-- eglise: Ste Thérèse
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5HPd3p--
-  horaire: 18h
+  lien_lieu: http://osm.org/go/0DF5cWRN4--
+  horaire: 10h30
   remarque: null
   site: null
   
@@ -117,4 +82,39 @@
   lien_lieu: http://osm.org/go/0DF5Qcd59--
   horaire: 10h30
   remarque: null
+  site: null
+
+- eglise: St Martin
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ZIIw8
+  horaire: 11h
+  remarque: null
+  site: null
+
+- eglise: Ste Thérèse
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5HPd3p--
+  horaire: 11h
+  remarque: null
+  site: null
+  
+- eglise: Cathédrale St Étienne
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
+  horaire: 11h30
+  remarque: null
+  site: null
+
+- eglise: Ste Thérèse
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5HPd3p--
+  horaire: 18h
+  remarque: null
+  site: null
+  
+- eglise: Notre-Dame
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ZHq~S
+  horaire: 18h30
+  remarque: messe des jeunes
   site: null
