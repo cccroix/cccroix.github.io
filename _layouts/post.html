@@ -5,7 +5,34 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | localize: ":long" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    {% comment %}<p class="post-meta">{{ page.date | localize: ":long" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>{% endcomment %}
+    <p class="post-meta">
+        {% assign dy = page.date | date: "%a" %}{% case dy %}
+            {% when "Mon" %}lundi
+            {% when "Tue" %}mardi
+            {% when "Wed" %}mercredi
+            {% when "Thu" %}jeudi
+            {% when "Fri" %}vendredi
+            {% when "Sat" %}samedi
+            {% when "Sun" %}dimanche
+        {% else %}{{ dy }}
+        {% endcase %}
+        {{ page.date | date: "%d" }}
+        {% assign m = page.date | date: "%-m" %}{% case m %}
+            {% when '1' %}janvier
+            {% when '2' %}février
+            {% when '3' %}mars
+            {% when '4' %}avril
+            {% when '5' %}mai
+            {% when '6' %}juin
+            {% when '7' %}juillet
+            {% when '8' %}août
+            {% when '9' %}septembre
+            {% when '10' %}octobre
+            {% when '11' %}novembre
+            {% when '12' %}décembre
+        {% endcase %}{{ page.date | date: '%Y' }}
+    {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
