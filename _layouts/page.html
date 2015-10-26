@@ -47,7 +47,9 @@ layout: default
 
         {% if page.author %}
             {% assign author = site.data.authors[page.author] %}
-             • {{ author.firstname }} {{ author.lastname }}
+             {% if author.site %}
+             • <a href="{{ author.site }}">{{ author.firstname }} {{ author.lastname }}</a>
+             {% endif %}
             <a href="mailto:{{ author.email }}?subject={{ 'À propos de : « ' | append: page.title | append: ' »' | urlescape }}">
                 <i class="fa fa-envelope-o"></i>
             </a>
