@@ -2,6 +2,7 @@
 layout: post
 title:  "Bienvenue sur le nouveau site de la CC† !"
 date:   2015-10-25 21:00:00 CET
+author: LGD
 categories: nouvelles
 ---
 
