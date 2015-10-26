@@ -20,7 +20,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "dimanche" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
@@ -30,7 +30,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "lundi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
@@ -40,7 +40,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "mardi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
@@ -50,7 +50,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "mercredi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
@@ -60,7 +60,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "jeudi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
@@ -70,7 +70,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "vendredi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
@@ -80,7 +80,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign eglise = eglises[confession.eglise] %}
 {% for jour in confession.jour %}
 {% if jour == "samedi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.osm }})
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
 {% endif %}
 {% endfor%}
 {% endfor%}
