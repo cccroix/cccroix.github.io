@@ -1,82 +1,63 @@
-# Pour ajouter une église, utiliser les attributs suivants
-# - eglise: 
-#   code: cinqPremièresLettresEnAttaché_ville (pas de majuscules, pas de 'saint')
-#   lieu: 
-#   lien_lieu: 
-#   site:
-#   (site2)
-#
+# Pour ajouter une église, suivez le modèle suivant :
+# key: 
+#   nom: Saint Glinglin
+#   lieu: Metz
+#   site: http://saint-glinglin.com
+#   osm: http://osm.org/go/0DF5PydYf
+#   google:
 
-######################
-# Proches de Supélec #
-######################
-
-- eglise: Immaculée Conception
+immaculee:
+  nom: Immaculée Conception
   lieu: Queuleu
-  lien_lieu: http://osm.org/go/0DF5PydYf
-  code: immac_queuleu
-  site: http://ame-metz.com/index.php/code-des-messes#year=2014&month=9&day=21&view=month
-  site2: http://motuproprio-metz.e-monsite.com/
-  
-- eglise: Saint Pierre
+  site: http://ame-metz.com/
+  osm: http://osm.org/go/0DF5PydYf
+
+pierre:
+  nom: Saint Pierre
   lieu: Borny
-  lien_lieu: http://osm.org/go/0DF54gyiU
-  code: pierre_borny
-  site: null
+  osm: http://osm.org/go/0DF54gyiU
 
-########  
-# Metz #
-########
-- eglise: Ste Thérèse
+therese:
+  nom: Sainte Thérèse
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5HPd3p--
-  code: there_metz
-  site: null
+  osm: http://osm.org/go/0DF5HPd3p--
 
-- eglise: Cathédrale St Étienne
+etienne:
+  nom: Cathédrale St Étienne
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
-  code: cathe_metz
-  site: null
+  osm: http://osm.org/go/0DF5ZV8RZ--
 
-- eglise: St Maximin
+symphorien:
+  nom: Saint Symphorien
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5Zp34t
-  code: maxim_metz
-  site: null
+  osm: http://osm.org/go/0DF5Qcd59--
 
-- eglise: Ste Ségolène
+martin:
+  nom: Saint Martin
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ckMbG
-  code: segol_metz
-  site: null
+  osm: http://osm.org/go/0DF5ZIIw8
 
-- eglise: St Simon et St Jude
+nd:
+  nom: Notre-Dame
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5XLbPw--
-  code: simon_metz
-  site: null
+  osm: http://osm.org/go/0DF5ZHq~S
 
-- eglise: St Clément
+clement:
+  nom: Saint Clément
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5cWRN4--
-  code: cleme_metz
-  site: null
-  
-- eglise: St Symphorien
-  lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5Qcd59--
-  code: symph_metz
-  site: null
+  osm: http://osm.org/go/0DF5cWRN4--
 
-- eglise: St Martin
+simon:
+  nom: Saint Simon et Saint Jude
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ZIIw8
-  code: marti_metz
-  site: null
-  
-- eglise: Notre-Dame
+  osm: http://osm.org/go/0DF5XLbPw--
+
+segolene:
+  nom: Saint Ségolène
   lieu: Metz
-  lien_lieu: http://osm.org/go/0DF5ZHq~S
-  code: notre_metz
-  site: null
+  osm: http://osm.org/go/0DF5ckMbG
+
+maximin:
+  nom: Saint Maximin
+  lieu: Metz
+  osm: http://osm.org/go/0DF5Zp34t
