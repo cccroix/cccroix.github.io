@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+
+{% assign eglise = site.data.eglises[page.eglise] %}
+{% assign messes = site.data.messes_dimanche %}
+
+<h1>{{ eglise.nom }} <small>({{ eglise.lieu }})</small></h1>
+
+<p><i class="fa fa-map-marker"></i> {{ eglise.adresse }}</p>
+
+<ul>
+    <li>
+        <a href="{{ eglise.osm }}">
+            <i class="fa fa-map-o"></i> OSM
+        </a>
+    </li>
+    <li>
+        <a href="{{ eglise.google }}">
+            <i class="fa fa-map"></i> Google Map
+        </a>
+    </li>
+    {% if eglise.site %}
+    <li>
+        <a href="{{ eglise.site }}">
+            <i class="fa fa-link"></i> Site
+        </a>
+    </li>
+    {% endif %}
+</ul>
+
+<h2>Messes dominicales</h2>
+
+<ul>
+{% for messe in messes %}{% if messe.eglise == page.eglise %}
+    <li><b>{{ messe.horaire }}</b>{% if messe.remarque  %} – (<em>{{ messe.remarque }}</em>){% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
+{% endif %}{% endfor %}
+    </li>
+</ul>
+
+<article class="eglise-content">
+{{ content }}
+</article>

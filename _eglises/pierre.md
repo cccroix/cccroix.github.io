@@ -1,0 +1,4 @@
+---
+layout: eglise
+eglise: pierre
+---
