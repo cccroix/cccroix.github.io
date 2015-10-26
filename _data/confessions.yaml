@@ -11,6 +11,14 @@
 # On prendra soin de garder l'ordre par horaire croissant
 #
 
+
+- eglise: clement
+  jour: 
+     - mardi
+  horaire: 8h
+  horairefin: 9h
+  remarque: accueil rue de la Tour aux Rats
+
 - eglise: etienne
   jour: 
      - lundi
@@ -28,13 +36,8 @@
 - eglise: eucaire
   jour: 
      - lundi	
-  horaire: 
-
-- eglise: therese
-  jour: 
-     - lundi
-  horaire: 20h30
-  horairefin: 21h30
+  horaire: 17h30
+  horairefin: 18h
 
 - eglise: therese
   jour: 
@@ -53,25 +56,18 @@
 
 - eglise: clement
   jour: 
-     - mardi
-  horaire: 8h
-  horairefin: 9h
-  remarque: accueil : rue de la Tour aux Rats
-
-- eglise: clement
-  jour: 
      - mercredi
      - vendredi
   horaire: 17h30
   horairefin: 18h30
-  remarque: accueil : rue de la Tour aux Rats (pas de confession pendant les vacances)
+  remarque: accueil rue de la Tour aux Rats (pas de confession pendant les vacances)
 
 - eglise: nd
   jour: 
      - mardi
   horaire: 17h30
   horairefin: 18h30
-  remarque: accueil : rue de la Tour aux Rats (pas de confession pendant les vacances)
+  remarque: accueil rue de la Tour aux Rats (pas de confession pendant les vacances)
 
 - eglise: segolene
   jour: 
@@ -81,12 +77,11 @@
   horairefin: 18h30
   remarque: au presbytère (14, rue des capucins)
 
-- eglise: segolene
+- eglise: simon
   jour: 
-     - vendredi
-  horaire: 19h
-  horairefin: 19h45
-  remarque: au presbytère (14, rue des capucins)
+     - samedi
+  horaire: 16h
+  horairefin: 18h
 
 - eglise: martin
   jour: 
@@ -106,8 +101,15 @@
   horaire: 17h30
   horairefin: 18h
 
-- eglise: simon
+- eglise: segolene
   jour: 
-     - samedi
-  horaire: 16h
-  horairefin: 18h
+     - vendredi
+  horaire: 19h
+  horairefin: 19h45
+  remarque: au presbytère (14, rue des capucins)
+
+- eglise: therese
+  jour: 
+     - lundi
+  horaire: 20h30
+  horairefin: 21h30
