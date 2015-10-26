@@ -3,9 +3,11 @@ LGD:
   lastname: Dubois
   email: contact@lgdubois.fr
   github: LGD-Fr
+  site: http://www.lgdubois.fr
 
 luc:
   firstname: Luc
   lastname: Absil
   email: luc.absil@supelec.fr
   github: luc--
+  site: http://luc.absil.fr
