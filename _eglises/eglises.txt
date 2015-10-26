@@ -9,3 +9,4 @@ clement
 simon
 segolene
 maximin
+eucaire
