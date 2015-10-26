@@ -102,12 +102,6 @@
   horaire: 17h30
   horairefin: 18h
 
-- eglise: maximin
-  jour: 
-     - jeudi
-  horaire: 17h30
-  horairefin: 18h
-
 - eglise: segolene
   jour: 
      - vendredi
