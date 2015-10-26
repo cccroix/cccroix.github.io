@@ -1,9 +1,8 @@
 ---
-layout: default
+layout: page
+title: Églises
 permalink: '/eglises/'
 ---
-
-# Églises référencées
 
 {% assign eglises = site.data.eglises %}
 
