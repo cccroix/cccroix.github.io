@@ -42,7 +42,19 @@ layout: default
 
         {{ page.date | date: '%Y' }}
 
-        {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        {% if page.author %}
+            {% assign author = site.data.authors[page.author] %}
+             • {{ author.firstname }} {{ author.lastname }}
+            <a href="mailto:{{ author.email }}?subject={{ 'À propos de : « ' | append: page.title | append: ' »' | urlescape }}">
+                <i class="fa fa-envelope-o"></i>
+            </a>
+            <a href="{{ 'https://github.com/' | append: author.github }}">
+                <i class="fa fa-github"></i>
+            </a>
+        {% endif %}
+
+
+        {% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
