@@ -1,0 +1,32 @@
+immaculee:
+  nom: Immaculée Conception:
+  lieu: Queuleu
+  lien_lieu: http://osm.org/go/0DF5PydYf
+
+pierre:
+  nom: Saint Pierre
+  lieu: Queuleu
+  lien_lieu: http://osm.org/go/0DF5PydYf
+  site: http://ame-metz.com/
+
+therese:
+  nom: Sainte Thérèse
+  lieu: Borny
+  lien_lieu: http://osm.org/go/0DF54gyiU
+
+etienne:
+  nom: Cathédrale St Étienne
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ZV8RZ--
+
+symphorien:
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5Qcd59--
+
+martin:
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ZIIw8
+
+nd:
+  lieu: Metz
+  lien_lieu: http://osm.org/go/0DF5ZHq~S
