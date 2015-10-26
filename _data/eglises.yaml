@@ -2,62 +2,88 @@
 # key: 
 #   nom: Saint Glinglin
 #   lieu: Metz
+#   adresse: "3 rue Saint-Pierre, 57070 Metz"
 #   site: http://saint-glinglin.com
 #   osm: http://osm.org/go/0DF5PydYf
-#   google:
+#   google: https://www.google.com/maps/place/Metz+Cathedral/@49.1203116,6.1736087,17z/
 
 immaculee:
   nom: Immaculée Conception
   lieu: Queuleu
+  adresse: "47 Rue des 3 Evêchés, 57070 Metz"
   site: http://ame-metz.com/
   osm: http://osm.org/go/0DF5PydYf
+  google: https://www.google.com/maps/place/Église+Immaculée+Conception,+47+Rue+des+3+Evêchés,+57070+Metz,+France/@49.1066919,6.1919614,17.5z/
 
 pierre:
   nom: Saint Pierre
   lieu: Borny
+  adresse: "2 Rue de la Chabosse, 57070 Metz"
   osm: http://osm.org/go/0DF54gyiU
+  google: https://www.google.com/maps/place/Eglise+Saint-Pierre/@49.1093015,6.2217728,17z/
 
 therese:
   nom: Sainte Thérèse
   lieu: Metz
+  adresse: "31 Rue de Verdun, 57000 Metz"
   osm: http://osm.org/go/0DF5HPd3p--
+  google: https://www.google.com/maps/place/Presbytère+Sainte-Thérèse/@49.1058746,6.1647353,17z/
 
 etienne:
   nom: Cathédrale St Étienne
   lieu: Metz
+  adresse: "Place d'Armes, 57000 Metz"
+  site: http://www.cathedrale-metz.fr/
   osm: http://osm.org/go/0DF5ZV8RZ--
+  google: https://www.google.com/maps/place/Metz+Cathedral/@49.1203116,6.1736087,17z/
 
 symphorien:
   nom: Saint Symphorien
-  lieu: Metz
+  lieu: Longeville-lès-Metz
+  adresse: "1 Rue des Pépinières, 57050 Longeville-lès-Metz"
+  site: http://st.symphorien.metz.free.fr/
   osm: http://osm.org/go/0DF5Qcd59--
+  google: https://www.google.com/maps/place/Paroisse+Saint+Symphorien/@49.1113629,6.1530944,14.25z/
 
 martin:
   nom: Saint Martin
   lieu: Metz
+  adresse: "Place Saint-Martin, 57000 Metz"
   osm: http://osm.org/go/0DF5ZIIw8
+  google: https://www.google.com/maps/place/Église+Saint-Martin/@49.1145413,6.1749064,17z/
 
 nd:
   nom: Notre-Dame
   lieu: Metz
+  adresse: "21 Rue de la Chèvre, 57000 Metz"
+  site: http://cathometz.fr/
   osm: http://osm.org/go/0DF5ZHq~S
+  google: https://www.google.com/maps/place/Eglise+Notre+Dame/@49.1166445,6.1755333,17z/
 
 clement:
   nom: Saint Clément
   lieu: Metz
+  adresse: "Place Gabriel Hocquard, 57000 Metz"
   osm: http://osm.org/go/0DF5cWRN4--
+  google: https://www.google.com/maps/place/Église+Saint-Clément/@49.1248827,6.1741447,17z/
 
 simon:
   nom: Saint Simon et Saint Jude
   lieu: Metz
+  adresse: "6 Place de France, 57000 Metz"
   osm: http://osm.org/go/0DF5XLbPw--
+  google: https://www.google.com/maps/place/Église+Saint-Simon-Saint-Jude/@49.1268003,6.1641924,17z/
 
 segolene:
   nom: Saint Ségolène
   lieu: Metz
+  adresse: "14 Rue des Capucins, 57000 Metz"
   osm: http://osm.org/go/0DF5ckMbG
+  google: https://www.google.com/maps/place/Sainte-Ségolène/@49.1211952,6.1783876,17z/
 
 maximin:
   nom: Saint Maximin
   lieu: Metz
+  adresse: "66 Rue Mazelle, 57000 Metz"
   osm: http://osm.org/go/0DF5Zp34t
+  google: https://www.google.com/maps/place/Paroisse+Saint-Maximin/@49.1150399,6.1805673,17.25z/
