@@ -1,0 +1,115 @@
+# Pour ajouter un horaire de confession suivez le modèle suivant :
+#
+# - eglise: key  # sur eglises.yaml
+#   jour: 
+#        -lundi
+#        -jeudi
+#   horaire: 10h30
+#   horairefin: 10h35 (optionel)
+#   remarque: (optionel)
+#
+# On prendra soin de garder l'ordre par horaire croissant
+#
+
+
+- eglise: clement
+  jour: 
+     - mardi
+  horaire: 8h
+  horairefin: 9h
+  remarque: accueil rue de la Tour aux Rats
+
+- eglise: etienne
+  jour: 
+     - lundi
+  horaire: 9h40
+ 
+- eglise: etienne
+  jour: 
+     - mardi
+     - mercredi
+     - jeudi
+     - vendredi
+  horaire: 9h40
+  remarque: sauf de juillet à septembre
+
+- eglise: eucaire
+  jour: 
+     - lundi	
+  horaire: 17h30
+  horairefin: 18h
+
+- eglise: therese
+  jour: 
+     - mardi
+     - mercredi
+     - jeudi
+     - vendredi
+  horaire: 17h30
+  horairefin: 18h
+
+- eglise: therese
+  jour: 
+     - samedi
+  horaire: 17h30
+  horairefin: 18h
+
+- eglise: clement
+  jour: 
+     - mercredi
+     - vendredi
+  horaire: 17h30
+  horairefin: 18h30
+  remarque: accueil rue de la Tour aux Rats (pas de confession pendant les vacances)
+
+- eglise: nd
+  jour: 
+     - mardi
+  horaire: 17h30
+  horairefin: 18h30
+  remarque: accueil rue de la Tour aux Rats (pas de confession pendant les vacances)
+
+- eglise: segolene
+  jour: 
+     - mardi
+     - vendredi
+  horaire: 18h
+  horairefin: 18h30
+  remarque: au presbytère (14, rue des capucins)
+
+- eglise: simon
+  jour: 
+     - samedi
+  horaire: 16h
+  horairefin: 18h
+
+- eglise: martin
+  jour: 
+     - mercredi
+  horaire: 17h30
+  horairefin: 18h
+
+- eglise: maximin
+  jour: 
+     - jeudi
+  horaire: 17h30
+  horairefin: 18h
+
+- eglise: maximin
+  jour: 
+     - jeudi
+  horaire: 17h30
+  horairefin: 18h
+
+- eglise: segolene
+  jour: 
+     - vendredi
+  horaire: 19h
+  horairefin: 19h45
+  remarque: au presbytère (14, rue des capucins)
+
+- eglise: therese
+  jour: 
+     - lundi
+  horaire: 20h30
+  horairefin: 21h30
