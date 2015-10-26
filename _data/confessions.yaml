@@ -26,6 +26,7 @@
      - mercredi
      - jeudi
      - vendredi
+     - samedi
   horaire: 9h40
  
 - eglise: etienne
@@ -34,6 +35,7 @@
      - mercredi
      - jeudi
      - vendredi
+     - samedi
   horaire: 16h
   horairefin: 17h
   remarque: sauf de juillet à septembre
