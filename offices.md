@@ -17,7 +17,7 @@ published: true
 {% for messe in messes %}
 {% assign eglise = eglises[messe.eglise] %}
 {% if eglise.lieu == "Borny" or eglise.lieu == "Queuleu" %}
-- **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %}(<em>{{ messe.remarque }}</em>) {% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
+- **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
 {% endif %}
 {% endfor %}
 
@@ -26,7 +26,7 @@ published: true
 {% for messe in messes %}
 {% assign eglise = eglises[messe.eglise] %}
 {% if eglise.lieu != "Borny" and eglise.lieu != "Queuleu" %}
-- **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %}(<em>{{ messe.remarque }}</em>) {% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
+- **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
 {% endif %}
 {% endfor %}
 

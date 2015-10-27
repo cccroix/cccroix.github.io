@@ -36,7 +36,7 @@ layout: default
 
 <ul>
 {% for messe in messes %}{% if messe.eglise == page.eglise %}
-    <li><b>{{ messe.horaire }}</b>{% if messe.remarque  %} – (<em>{{ messe.remarque }}</em>){% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
+    <li><b>{{ messe.horaire }}</b>{% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
 {% endif %}{% endfor %}
     </li>
 </ul>
@@ -49,7 +49,7 @@ layout: default
 {% for jour in confession.jour %}
 {% if jour == day %}
 {% if confession.eglise == page.eglise %}
-    <li><strong>{{ jour }}</strong> – {% if confession.horairefin  %}de {% endif %}{{confession.horaire}}{% if confession.horairefin  %} à {{ confession.horairefin }}{% endif %}{% if confession.remarque  %} (<em>{{ confession.remarque }}</em>){% endif %}</li>
+    <li><strong>{{ jour }}</strong> – {% if confession.horairefin  %}de {% endif %}{{confession.horaire}}{% if confession.horairefin  %} à {{ confession.horairefin }}{% endif %}{% if confession.remarque  %} − <em>{{ confession.remarque }}</em>{% endif %}</li>
 {% endif %}{% endif %}
 {% endfor %}{% endfor %}{% endfor %}
 </ul>
