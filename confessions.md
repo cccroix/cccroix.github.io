@@ -15,72 +15,16 @@ Ces horaires sont soumis aux aléas du temps. Il est donc conseillé de vérifie
 
 Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire).
 
-## Dimanche
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "dimanche" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
-{% endif %}
-{% endfor%}
-{% endfor%}
+{% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 
-## Lundi
+{% for jour in semaine %}
+## {{ jour | capitalize }}
 {% for confession in confessions %}
 {% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "lundi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
+{% for j in confession.jour %}
+{% if j == jour %}
+- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html){% if confession.remarque %}<em> – {{ confession.remarque }}</em>{% endif %}
 {% endif %}
-{% endfor%}
-{% endfor%}
-
-## Mardi
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "mardi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
-{% endif %}
-{% endfor%}
-{% endfor%}
-
-## Mercredi
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "mercredi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
-{% endif %}
-{% endfor%}
-{% endfor%}
-
-## Jeudi
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "jeudi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
-{% endif %}
-{% endfor%}
-{% endfor%}
-
-## Vendredi
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "vendredi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
-{% endif %}
-{% endfor%}
-{% endfor%}
-
-## Samedi
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for jour in confession.jour %}
-{% if jour == "samedi" %}
-- <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html)
-{% endif %}
-{% endfor%}
-{% endfor%}
+{% endfor %}{% comment %} confessions in confessions {% endcomment %}
+{% endfor %}{% comment %} j in confession.jour {% endcomment %}
+{% endfor %}{% comment %} jour in semaine {% endcomment %}
