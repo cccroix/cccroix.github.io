@@ -29,3 +29,8 @@ published: true
 - **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %}(<em>{{ messe.remarque }}</em>) {% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
 {% endif %}
 {% endfor %}
+
+## Sources
+
+- [cette photo prise à la cathédrale le 25 oct. 2015]({{ '/img/201510/messes_metz.jpg' | prepend: site.baseurl }})
+- [cette autre photo prise à la cathédrale le 25 oct. 2015]({{ '/img/201510/messes_cathedrale.jpg' | prepend: site.baseurl }})

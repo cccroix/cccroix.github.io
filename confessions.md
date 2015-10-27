@@ -18,7 +18,7 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 
 {% for jour in semaine %}
-## {{ jour | capitalize }}
+### {{ jour | capitalize }}
 {% for confession in confessions %}
 {% assign eglise = eglises[confession.eglise] %}
 {% for j in confession.jour %}
@@ -28,3 +28,9 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 {% endfor %}{% comment %} confessions in confessions {% endcomment %}
 {% endfor %}{% comment %} j in confession.jour {% endcomment %}
 {% endfor %}{% comment %} jour in semaine {% endcomment %}
+
+
+## Sources
+
+- [cette photo prise à la cathédrale le 25 oct. 2015]({{ '/img/201510/confessions_metz.jpg' | prepend: site.baseurl }})
+- [cette autre photo prise à la cathédrale le 25 oct. 2015]({{ '/img/201510/messes_cathedrale.jpg' | prepend: site.baseurl }})
