@@ -1,11 +1,6 @@
 #!/usr/bin/env bash
-cat eglises.txt | while read i
+cat eglises.yaml | while IFS="---\n" read i
 do
-if [ ! -f "${i}.md" ]; then
-echo "---
-layout: eglise
-eglise: $i
----" > ${i}.md
-fi
+echo $i
+echo "END"
 done
-

@@ -4,9 +4,6 @@ title: Églises
 permalink: '/eglises/'
 ---
 
-{% assign eglises = site.data.eglises %}
-
-{% for e in site.eglises %}
-{% assign eglise = eglises[e.eglise] %}
-- [{{ eglise.nom }} ({{ eglise.lieu }})]({{ e.url }})
+{% for eglise in site.eglises %}
+- [{{ eglise.nom }} ({{ eglise.lieu }})]({{ eglise.url }})
 {% endfor %}

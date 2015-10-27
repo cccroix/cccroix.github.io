@@ -8,7 +8,7 @@ published: true
 ---
 
 {% assign confessions = site.data.confessions %}
-{% assign eglises = site.data.eglises %}
+{% assign eglises = site.eglises %}
 
 ## Avertissements
 Ces horaires sont soumis aux aléas du temps. Il est donc conseillé de vérifier préalablement si l'on ne souhaite pas se casser le nez. Pour être sûr de trouver un prêtre, la meilleure solution reste de viser les messes.
@@ -19,15 +19,11 @@ Les confessions sont en revanche toujours assurées à la cathédrale Saint Éti
 
 {% for jour in semaine %}
 ### {{ jour | capitalize }}
-{% for confession in confessions %}
-{% assign eglise = eglises[confession.eglise] %}
-{% for j in confession.jour %}
-{% if j == jour %}
+{% for confession in confessions %}{% if confession.jour contains jour %}
+{% assign eglise = eglises | where: "key", confession.eglise | first %}
 - <strong>{{ confession.horaire }}{% if confession.horairefin  %} – {{ confession.horairefin }} {% endif %}</strong> – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ confession.eglise }}.html){% if confession.remarque %}<em> – {{ confession.remarque }}</em>{% endif %}
-{% endif %}
-{% endfor %}{% comment %} confessions in confessions {% endcomment %}
-{% endfor %}{% comment %} j in confession.jour {% endcomment %}
-{% endfor %}{% comment %} jour in semaine {% endcomment %}
+{% endif %}{% endfor %}
+{% endfor %}
 
 
 ## Sources

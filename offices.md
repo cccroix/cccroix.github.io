@@ -10,12 +10,12 @@ published: true
 ## Messes du dimanche
 
 {% assign messes = site.data.messes_dimanche %}
-{% assign eglises = site.data.eglises %}
+{% assign eglises = site.eglises %}
 
 ### À proximité de Supélec
 
 {% for messe in messes %}
-{% assign eglise = eglises[messe.eglise] %}
+{% assign eglise = eglises | where: "key", messe.eglise | first %}
 {% if eglise.lieu == "Borny" or eglise.lieu == "Queuleu" %}
 - **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
 {% endif %}
@@ -24,7 +24,7 @@ published: true
 ### Dans Metz
 
 {% for messe in messes %}
-{% assign eglise = eglises[messe.eglise] %}
+{% assign eglise = eglises | where: "key", messe.eglise | first %}
 {% if eglise.lieu != "Borny" and eglise.lieu != "Queuleu" %}
 - **{{ messe.horaire }}** – [<i class="fa fa-map-marker"></i> {{ eglise.nom }} ({{ eglise.lieu }})](/eglises/{{ messe.eglise }}.html) {% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
 {% endif %}
