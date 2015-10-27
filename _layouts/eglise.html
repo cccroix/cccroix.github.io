@@ -6,7 +6,7 @@ layout: default
 {% assign eglise = site.data.eglises[page.eglise] %}
 {% assign messes = site.data.messes_dimanche %}
 {% assign confessions = site.data.confessions %}
-{% assign semaine = "lundi mardi mercredi jeudi samedi dimanche" | split: ' ' %}
+{% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 
 <h1>{{ eglise.nom }} <small>({{ eglise.lieu }})</small></h1>
 
