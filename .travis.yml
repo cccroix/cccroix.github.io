@@ -18,7 +18,8 @@ branches:
 
 env:
   global:
-    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+#    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+     - NOKOGIRI_USE_SYSTEM_LIBRARIES=false
 
 notifications:
   email:
