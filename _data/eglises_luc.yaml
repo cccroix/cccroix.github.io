@@ -1,11 +1,6 @@
-# Pour ajouter une église, utiliser les attributs suivants
-# - eglise: 
-#   code: cinqPremièresLettresEnAttaché_ville (pas de majuscules, pas de 'saint')
-#   lieu: 
-#   lien_lieu: 
-#   site:
-#   (site2)
-#
+# NE PAS UTILISER CE FICHIER
+# LES DONNÉES SONT STOCKÉES DANS CHAQUE FICHIER
+# DU DOSSIER `_eglises` DÉSORMAIS
 
 ######################
 # Proches de Supélec #

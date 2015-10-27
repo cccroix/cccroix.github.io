@@ -1,11 +1,6 @@
-# Pour ajouter une église, suivez le modèle suivant :
-# key: 
-#   nom: Saint Glinglin
-#   lieu: Metz
-#   adresse: "3 rue Saint-Pierre, 57070 Metz"
-#   site: http://saint-glinglin.com
-#   osm: http://osm.org/go/0DF5PydYf
-#   google: https://www.google.com/maps/place/Metz+Cathedral/@49.1203116,6.1736087,17z/
+# NE PAS UTILISER CE FICHIER
+# LES DONNÉES SONT STOCKÉES DANS CHAQUE FICHIER
+# DU DOSSIER `_eglises` DÉSORMAIS
 
 immaculee:
   nom: Immaculée Conception
