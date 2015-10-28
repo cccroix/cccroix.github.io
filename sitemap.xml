@@ -1,0 +1,44 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {% for page in site.html_pages %}
+    <url>
+        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        {% if page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    {% endfor %}
+    {% for page in site.eglises %}
+    <url>
+        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        {% if page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    {% endfor %}
+    {% for page in site.html_files %}
+    <url>
+        <loc>{{ page.path | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        <lastmod>{{ page.modified_time | date_to_xmlschema }}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+    {% for page in site.posts %}
+    <url>
+        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        {% if page.date %}
+        <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+        {% endif %}
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+</urlset>
