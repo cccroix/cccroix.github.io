@@ -37,7 +37,7 @@ strong, b {
     width: 100%;
     text-align: center;
     margin-top: 30px;
-    .previous {
+    .previous_page {
         @include paginatorb;
         text-align: left;
         float: left;
@@ -48,7 +48,7 @@ strong, b {
         margin-left: auto;
         margin-right: auto;
     }
-    .next {
+    .next_page {
         @include paginatorb;
         text-align: right;
         float: right;

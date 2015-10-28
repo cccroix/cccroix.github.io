@@ -56,7 +56,7 @@ layout: default
 
 
   <div class="pagination">
-    <div class="previous">
+    <div class="previous_page">
       {% if paginator.previous_page %}
           <a href="{{ paginator.previous_page_path }}">
             <i class="fa fa-arrow-left"></i> précédent
@@ -70,7 +70,7 @@ layout: default
     <div class="page_number">
       page {{ paginator.page }} / {{ paginator.total_pages }}
     </div>
-    <div class="next">
+    <div class="next_page">
       {% if paginator.next_page %}
           <a href="{{ paginator.next_page_path }}">
             suivant <i class="fa fa-arrow-right"></i>
