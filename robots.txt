@@ -1,0 +1,8 @@
+---
+layout: null
+---
+User-agent: *
+Disallow: Gemfile
+Disallow: README.md
+Sitemap: {{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url | url_escape }}
+Host: {{ site.url | split: '/' | last }}
