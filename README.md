@@ -5,7 +5,8 @@
 
 ## Aspect technique
 
-Ce site est hébergé sur **github** en utilisant cf. [Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Jekyll](http://jekyllrb.com/docs/home/) (sous licence MIT).
+Ce site est hébergé sur **github** en utilisant cf. [Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/) & [Jekyll](http://jekyllrb.com/docs/home/) (sous licence MIT). Pour la recherche, nous avons utilisé [Tipue-Search
+](https://github.com/Tipue/Tipue-Search).
 
 Nous vous invitons fortement à prendre connaissance de la documentation de Jekyll avant de contribuer.
 
