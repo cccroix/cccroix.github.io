@@ -3,6 +3,7 @@ layout: default
 title: Résultats de la recherche
 permalink: /search.html
 author: luc
+nav: false
 published: true
 ---
   <script src="js/tipuesearch_content.js"></script>
