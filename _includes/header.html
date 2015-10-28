@@ -19,7 +19,7 @@
 	<input type="text" name="q" id="tipue_search_input" placeholder="Rechercher…" autocomplete="off" required>
 	</form>
 	
-	     <a class="page-link" href="{{ site.baseurl }}"><i class="fa fa-home"></i></a>
+	     <a class="page-link" href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
         {% for page in site.pages %}
           {% if page.title and page.nav != false %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
