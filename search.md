@@ -9,7 +9,7 @@ published: true
   <script src="js/tipuesearch_set.js"></script>
   <script src="js/tipuesearch.min.js"></script>
   
-<form action="search.html">
+<form action="{{ site.baseurl}}/search.html">
 <input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
 </form>
 <div id="tipue_search_content"></div>
