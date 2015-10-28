@@ -6,56 +6,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-        {% assign dy = page.date | date: "%a" %}
-        {% case dy %}
-            {% when "Mon" %}Lundi
-            {% when "Tue" %}Mardi
-            {% when "Wed" %}Mercredi
-            {% when "Thu" %}Jeudi
-            {% when "Fri" %}Vendredi
-            {% when "Sat" %}Samedi
-            {% when "Sun" %}Dimanche
-        {% else %}{{ dy }}
-        {% endcase %}
-
-        {% assign d = page.date | date: "%-d"  %}
-        {% case d %}
-            {% when '1' %}{{ d }}er
-            {% else %}{{ d }}
-        {% endcase %}
-
-        {% assign m = page.date | date: "%-m" %}
-        {% case m %}
-            {% when '1' %}janvier
-            {% when '2' %}février
-            {% when '3' %}mars
-            {% when '4' %}avril
-            {% when '5' %}mai
-            {% when '6' %}juin
-            {% when '7' %}juillet
-            {% when '8' %}août
-            {% when '9' %}septembre
-            {% when '10' %}octobre
-            {% when '11' %}novembre
-            {% when '12' %}décembre
-        {% endcase %}
-
-        {{ page.date | date: '%Y' }}
-
-        {% if page.author %}
-            {% assign author = site.data.authors[page.author] %}
-             {% if author.site %}
-             • <a href="{{ author.site }}">{{ author.firstname }} {{ author.lastname }}</a>
-             {% endif %}
-            <a href="mailto:{{ author.email }}?subject={{ 'À propos de : « ' | append: page.title | append: ' »' | urlescape }}">
-                <i class="fa fa-envelope-o"></i>
-            </a>
-            <a href="{{ 'https://github.com/' | append: author.github }}">
-                <i class="fa fa-github"></i>
-            </a>
-        {% endif %}
-
-
+        {% if page.date %}Dernière mise à jour : {% include date.html date=page.date %}{% endif %}
+        {% if page.author %}{% include author.html author=page.author %}{% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 

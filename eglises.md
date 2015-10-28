@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Églises
+nav: true
 permalink: '/eglises/'
 ---
 
