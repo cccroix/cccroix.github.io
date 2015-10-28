@@ -5,7 +5,7 @@ layout: null
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.html_pages %}
     <url>
-        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        <loc>{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
         {% if page.date %}
         <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
         {% endif %}
@@ -15,7 +15,7 @@ layout: null
     {% endfor %}
     {% for page in site.eglises %}
     <url>
-        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        <loc>{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
         {% if page.date %}
         <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
         {% endif %}
@@ -33,7 +33,7 @@ layout: null
     {% endfor %}
     {% for page in site.posts %}
     <url>
-        <loc>{{ page.url | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
+        <loc>{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url | url_escape }}</loc>
         {% if page.date %}
         <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
         {% endif %}
