@@ -23,8 +23,15 @@
     }
 }
 
-.site-nav {
+#tipue_search_input.nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
     float: right;
+    width: 50%;
+}
+
+.site-nav {
+    float: left;
     line-height: 56px;
 
     .menu-icon {

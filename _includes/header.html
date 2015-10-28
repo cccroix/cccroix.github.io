@@ -4,6 +4,10 @@
 
     <a class="site-title" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/cc+.png" alt="{{ site.title }}"></a>
 
+      <form action="{{ site.baseurl}}/search.html">
+	<input type="text" name="q" class="nav" id="tipue_search_input" placeholder="Rechercher…" autocomplete="off" required>
+	</form>
+
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -15,13 +19,10 @@
 
       <div class="trigger">
       
-      <form action="{{ site.baseurl}}/search.html">
-	<input type="text" name="q" id="tipue_search_input" placeholder="Rechercher…" autocomplete="off" required>
-	</form>
 	
 	     <a class="page-link" href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
         {% for page in site.pages %}
-          {% if page.title and page.nav != false %}
+          {% if page.title and page.nav %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}

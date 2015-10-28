@@ -1,0 +1,9 @@
+ •
+{% if site.data.authors contains include.author %}
+{% assign author = site.data.authors[include.author] %}
+{% if author.site %}<a href="{{ author.site }}">{% endif %}{{ author.firstname }} {{ author.lastname }}{% if author.site %}</a>{% endif %}
+{% if author.email %}<a href="mailto:{{ author.email }}?subject={{ 'À propos de : « ' | append: page.title | append: ' »' | urlescape }}"> <i class="fa fa-envelope-o"></i> </a>{% endif %}
+{% if author.github %}<a href="{{ 'https://github.com/' | append: author.github }}"> <i class="fa fa-github"></i></a>{% endif %}
+{% else %}
+{{ include.author }}
+{% endif %}

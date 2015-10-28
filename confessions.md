@@ -4,6 +4,7 @@ title: Se confesser à Metz
 permalink: /confessions/
 date: 2015-10-26 22:54:00 CET
 author: luc
+nav: true
 published: true
 ---
 

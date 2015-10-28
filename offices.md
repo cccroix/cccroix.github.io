@@ -4,6 +4,7 @@ title: Horaires des offices
 permalink: /offices/
 date: 2015-10-26 11:00:00 CET
 author: luc
+nav: true
 published: true
 ---
 
