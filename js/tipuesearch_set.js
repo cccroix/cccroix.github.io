@@ -44,16 +44,16 @@ var tipuesearch_stem = {'words': [
 
 // Internal strings
 
-var tipuesearch_string_1 = 'No title';
-var tipuesearch_string_2 = 'Showing results for';
-var tipuesearch_string_3 = 'Search instead for';
-var tipuesearch_string_4 = '1 result';
-var tipuesearch_string_5 = 'results';
-var tipuesearch_string_6 = 'Prev';
-var tipuesearch_string_7 = 'Next';
-var tipuesearch_string_8 = 'Nothing found';
-var tipuesearch_string_9 = 'Common words are largely ignored';
-var tipuesearch_string_10 = 'Search too short';
+var tipuesearch_string_1 = 'Pas de titre';//'No title';
+var tipuesearch_string_2 = 'Montrer les résultats pour';//'Showing results for';
+var tipuesearch_string_3 = 'Chercher plutôt';//'Search instead for';
+var tipuesearch_string_4 = '1 résultat';//'1 result';
+var tipuesearch_string_5 = 'Résultats';//'results';
+var tipuesearch_string_6 = 'Précédent';//'Prev';
+var tipuesearch_string_7 = 'Suivant';//'Next';
+var tipuesearch_string_8 = 'Aucun résultat';//'Nothing found';
+var tipuesearch_string_9 = 'Les mots courants sont ignorés dans la recherche';//'Common words are largely ignored';
+var tipuesearch_string_10 = 'Recherche trop courte';//'Search too short';
 var tipuesearch_string_11 = 'Should be one character or more';
 var tipuesearch_string_12 = 'Should be';
 var tipuesearch_string_13 = 'characters or more';
