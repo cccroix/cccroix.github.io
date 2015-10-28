@@ -17,6 +17,6 @@ var tipuesearch = {"pages": [
 {% endfor %}
 {% for eglise in site.eglises %}
     {% assign text = eglise.content %}
-    {"title": "{{ eglise.nom }}","text": {{ text | jsonify | strip_html }}, "tags": "{% if eglise.tags %}{% for tag in eglise.tags %}{{ tag }}, { %}{% endfor %}, église{% endif %}","url":"{{ eglise.url }}"},
+    {"title": "Église {{ eglise.nom }} ({{ eglise.lieu }})","text": {{ text | jsonify | strip_html }}, "tags": "{{ eglise.key }}, {% if eglise.tags %}{% for tag in eglise.tags %}{{ tag }}, {% endfor %}, église{% endif %}","url":"{{ eglise.url }}"},
 {% endfor %}
 ]};
