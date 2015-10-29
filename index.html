@@ -6,7 +6,13 @@ nav: false
 
 <div class="home">
 
-  <h1 class="page-heading">Articles</h1>
+  <h1 class="page-heading">Articles
+    <span class="source">
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts">
+            <i class="fa fa-plus"></i>
+        </a>
+    </span>
+  </h1>
 
   <ul class="post-list">
     {% for post in paginator.posts %}
