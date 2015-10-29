@@ -11,6 +11,8 @@ github_repo: cccroix.github.io
 paginate: 10
 paginate_path: "/page:num/"
 
+default_text: "---%0Alayout:%20post%0Atitle:%20Mon%20titre%0Aauthor:%20alias%0Adate:%20AAAA-MM-JJ%20HH:MM:SS%20CET%0Acategories:%20nouvelles%0A---%0A%0A%23%20Mon%20sous-titre%0A"
+
 collections:
  eglises:
    output: true
