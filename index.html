@@ -8,7 +8,11 @@ nav: false
 
   <h1 class="page-heading">Articles
     <span class="source">
-        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md&value={{ site.text_test | cgi_escape }}">
+        {% if site.default_text %}
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
+        {% else %}
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md">
+        {% endif %}
             <i class="fa fa-plus"></i>
         </a>
     </span>
