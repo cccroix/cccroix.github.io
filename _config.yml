@@ -11,7 +11,18 @@ github_repo: cccroix.github.io
 paginate: 10
 paginate_path: "/page:num/"
 
-default_text: "---%0Alayout:%20post%0Atitle:%20Mon%20titre%0Aauthor:%20alias%0Adate:%20AAAA-MM-JJ%20HH:MM:SS%20CET%0Acategories:%20nouvelles%0A---%0A%0A%23%20Mon%20sous-titre%0A"
+default_text: |
+    ---
+    layout: post
+    title: Mon titre
+    author: monalias
+    date: AAAA-MM-JJ HH:MM:SS CET
+    categories: nouvelles
+    ---
+
+    # Mon sous-titre
+
+    Mon texte.
 
 collections:
  eglises:
