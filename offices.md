@@ -8,7 +8,8 @@ nav: true
 published: true
 ---
 
-## Messes du dimanche
+<h2>Messes du dimanche <span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span></h2>
+
 
 {% assign messes = site.data.messes_dimanche %}
 {% assign eglises = site.eglises %}

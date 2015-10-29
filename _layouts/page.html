@@ -4,7 +4,11 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+    <h1 class="post-title">{{ page.title }}
+        <span class="source">
+             {% include edit.html path=page.path %}
+        </span>
+    </h1>
     <p class="post-meta">
         {% if page.date %}Dernière mise à jour : {% include date.html date=page.date %}{% endif %}
         {% if page.author %}{% include author.html author=page.author %}{% endif %}

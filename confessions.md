@@ -16,6 +16,8 @@ Ces horaires sont soumis aux aléas du temps. Il est donc conseillé de vérifie
 
 Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire).
 
+<h2>Horaires de confessions <span class="source">{% include edit.html path='_data/confessions.yaml' %}</span></h2>
+
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 
 {% for jour in semaine %}
