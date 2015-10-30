@@ -6,15 +6,13 @@ author: luc
 nav: false
 published: true
 ---
-  <script src="js/tipuesearch_content.js"></script>
-  <script src="js/tipuesearch_set.js"></script>
-  <script src="js/tipuesearch.min.js"></script>
   
-<form action="{{ site.baseurl}}/search.html">
-<input type="text" name="q" id="tipue_search_input" autocomplete="off" required>
-</form>
 <div id="tipue_search_content"></div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/tipuesearch_content.js"></script>
+<script src="js/tipuesearch_set.js"></script>
+<script src="js/tipuesearch.min.js"></script>
 <script>
 $(document).ready(function() {
      $('#tipue_search_input').tipuesearch();
