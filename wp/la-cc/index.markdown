@@ -4,11 +4,11 @@ comments: false
 date: 2012-09-08 10:14:41+00:00
 layout: page
 slug: la-cc
-title: La CC-Croix, c'est quoi ?
+title: La CC-Croix, <del>c'est</del> c’était quoi ?
 wordpress_id: 11
 ---
 
-**AVERTISSEMENT**: cette page n’est plus à jour, et est conservée à titre d’archive. Une présentation récente de la CC† est disponible à [cette adresse](/presentation/)
+**AVERTISSEMENT**: cette page n’est **PLUS à jour**, et est conservée à titre d’**archive**. Une présentation récente de la CC† est disponible à **[cette adresse](/presentation/)**
 
 -------------
 <br />
