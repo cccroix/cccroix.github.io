@@ -244,3 +244,11 @@ pre {
 .source {
     font-size: 10pt;
 }
+
+
+/**
+* RSS link
+*/
+.rss-subscribe a {
+    color: $orange-color-rss;
+}
