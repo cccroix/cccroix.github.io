@@ -1,9 +1,27 @@
- •
+<span rel="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
 {% if site.data.authors contains include.author %}
-{% assign author = site.data.authors[include.author] %}
-{% if author.site %}<a href="{{ author.site }}">{% endif %}{{ author.firstname }} {{ author.lastname }}{% if author.site %}</a>{% endif %}
-{% if author.email %}<a href="mailto:{{ author.email }}?subject={{ 'À propos de : « ' | append: page.title | append: ' »' | urlescape }}"> <i class="fa fa-envelope-o"></i> </a>{% endif %}
-{% if author.github %}<a href="{{ 'https://github.com/' | append: author.github }}"> <i class="fa fa-github"></i></a>{% endif %}
+    {% assign author = site.data.authors[include.author] %}
+    {% if author.site %}
+        <a itemprop="url" href="{{ author.site }}">
+    {% endif %}
+    <span itemprop="givenName">{{ author.firstname }}</span>
+    <span itemprop="familyName">{{ author.lastname }}</span>
+    {% if author.site %}
+        </a>
+    {% endif %}
+    {% if author.email %}
+        <a itemprop="email" href="mailto:{{ author.email }}?subject={{ 'À propos de : « ' | append: page.title | append: ' »' | urlescape }}">
+             <i class="fa fa-envelope-o"></i>
+        </a>
+    {% endif %}
+    {% if author.github %}
+        <a href="{{ 'https://github.com/' | append: author.github }}">
+            <i class="fa fa-github"></i>
+        </a>
+    {% endif %}
 {% else %}
-{{ include.author }}
+    <span itemprop="name">
+        {{ include.author }}
+    </span>
 {% endif %}
+</span>

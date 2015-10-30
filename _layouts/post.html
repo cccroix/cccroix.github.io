@@ -1,22 +1,30 @@
 ---
 layout: default
 ---
-<div class="post">
+
+<div itemscope itemtype="http://schema.org/Article" class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}
+    <h1 class="post-title">
+        <span itemprop="name">{{ page.title }}</span>
         <span class="source">
              {% include edit.html path=page.path %}
         </span>
     </h1>
     <p class="post-meta">
-        {% if page.date %}Dernière mise à jour : {% include date.html date=page.date %}{% endif %}
-        {% if page.author %}{% include author.html author=page.author %}{% endif %}
+        {% if page.date %}
+            <span itemprop="datePublished">
+                {% include date.html date=page.date %}
+            </span>
+        {% endif %}
+        {% if page.author %}
+            • {% include author.html author=page.author %}
+        {% endif %}
         {% if page.meta %} • {{ page.meta }}{% endif %}
     </p>
   </header>
 
-  <article class="post-content">
+  <article itemprop="articleBody" class="post-content">
     {{ content }}
   </article>
 
