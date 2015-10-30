@@ -2,7 +2,8 @@
 layout: page
 title: Pages de l’ancien site
 author: LGD
-nav: true
+nav: Archives
+position: 5
 date: 2015-10-28 18:30:00 CET
 ---
 

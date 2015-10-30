@@ -18,17 +18,18 @@
       </a>
 
       <div class="trigger">
-      
-	
-	     <a class="page-link" href="{{ site.baseurl }}/"><i class="fa fa-home"></i></a>
-        {% for page in site.pages %}
-          {% if page.title and page.nav %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+	     <a class="page-link" href="{{ site.baseurl }}/">
+            <i class="fa fa-home"></i>
+        </a>
+        {% assign pages = site.pages | sort: "position" %}
+        {% for page in pages %}
+          {% if page.nav %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.nav }}</a>
           {% endif %}
         {% endfor %}
       </div>
     </nav>
 
-  </div>
+  </div><!-- wrapper -->
 
 </header>

@@ -28,6 +28,9 @@
     margin-bottom: 30px;
     float: right;
     width: 50%;
+    @media screen and (max-width: 600px) {
+        width: 100%;
+    }
 }
 
 .site-nav {

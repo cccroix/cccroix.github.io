@@ -5,6 +5,7 @@ date: 2012-09-09 08:40:20+00:00
 layout: page
 slug: en-pratique
 title: En pratique
+published: false
 wordpress_id: 45
 ---
 
