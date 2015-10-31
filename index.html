@@ -9,9 +9,9 @@ nav: false
   <h1 class="page-heading">Articles
     <span class="source">
         {% if site.default_text %}
-        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
+        <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
         {% else %}
-        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md">
+        <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md">
         {% endif %}
             <i class="fa fa-plus"></i>
         </a>
@@ -62,3 +62,47 @@ nav: false
   </div>
 
 </div>
+
+<script>
+
+var id = 'add_link';
+
+function update_time( event ) {
+    var e = document.getElementById(id);
+    var link = e.href;
+    var now = new Date();
+    var year = now.getFullYear();
+    var month = now.getMonth() + 1;
+    if (month < 10) {
+        month = '0' + month;
+    }
+    var day = now.getDate();
+    if (day < 10) {
+        day = '0' + day;
+    }
+    var hour = now.getHours();
+    if (hour < 10) {
+        hour = '0' + hour;
+    }
+    var minute = now.getMinutes();
+    if (minute < 10) {
+        minute = '0' + minute;
+    }
+    minute = 23;
+    var second = now.getSeconds();
+    if (second < 10) {
+        second = '0' + second;
+    }
+    link = link.replace(/AAAA/g, year);
+    link = link.replace(/MM/g, month);
+    link = link.replace(/JJ/g, day);
+    link = link.replace(/hh/g, hour);
+    link = link.replace(/mm/g, minute);
+    link = link.replace(/ss/g, second);
+    e.href = link;
+};
+
+var e = document.getElementById(id);
+e.addEventListener("mouseover", update_time, false);
+
+</script>

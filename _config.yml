@@ -16,7 +16,7 @@ default_text: |
     layout: post
     title: Mon titre
     author: monalias
-    date: AAAA-MM-JJ HH:MM:SS CET
+    date: AAAA-MM-JJ hh:mm:ss CET
     categories: nouvelles
     ---
 
