@@ -5,6 +5,7 @@ published: false
 # sera affiché avant l’index des articles
 ---
 
-# Titre
+# Messes de la Toussaint :
 
-Coucou !
+- **Cathédrale** : départ **9h15** place du Kif
+- **Borny** : départ **10h45** place du Kif
