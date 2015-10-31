@@ -204,6 +204,22 @@ pre {
     }
 }
 
+.wrapper.nav {
+    max-width: 100%;
+    min-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.search {
+    display: inline-block;
+    min-width: 3cm;
+    margin-left: 10px 10px 10px 10px;
+    @include media-query($on-palm) {
+        width: auto;
+    }
+}
+
 
 
 /**

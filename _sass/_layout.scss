@@ -10,31 +10,32 @@
     position: relative;
 }
 
+
 .site-title {
+    display: inline-block;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+
+    @include media-query($on-palm) {
+        float: left;
+    }
+
+    img {
+        height: 56px;
+    }
+
 }
 
-#tipue_search_input.nav {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    float: right;
-    width: 50%;
-    @media screen and (max-width: 600px) {
-        width: 100%;
-    }
-}
 
 .site-nav {
-    float: left;
+    display: inline-block;
     line-height: 56px;
 
     .menu-icon {
@@ -50,7 +51,7 @@
             margin-left: 20px;
         }
     }
-
+    
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
