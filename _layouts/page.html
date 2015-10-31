@@ -4,7 +4,7 @@ layout: default
 
 <div itemscope itemtype="http://schema.org/Article" class="post">
 
-  <header class="post-header">
+  <header class="post-header wow slideInLeft">
     <h1 itemprop="name" class="post-title">{{ page.title }}
         <span class="source">
              {% include edit.html path=page.path %}
@@ -24,7 +24,7 @@ layout: default
         </p>
   </header>
 
-  <article itemprop="articleBody" class="post-content">
+  <article itemprop="articleBody" class="post-content wow slideInRight">
     {{ content }}
   </article>
 
