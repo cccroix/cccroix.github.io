@@ -149,7 +149,3 @@ Amnéville est un petit village à 25 minutes de la rez et qui est un condensé 
 
 
 Ce n'est pas du tourisme à proprement parler, mais ce sont de bonnes affaires ! Ce [complexe](http://www.marquesavenue.com/Talange) rassemble des dizaines de marques dégriffées pour tous les budgets, et aussi des magasins d'usine très abordables, comme le Ralph Lauren Factory Store où les réductions vont jusqu'à 90% (véridique!). _C'est à 20 minutes en direction de Luxembourg._
-
-
-[Précédent : balades mythiques](http://cccroixmetz.wordpress.com/idees-lorraine-alsace/balades-mythiques/)
-[Pré-précédent : Les Incontournables](http://cccroixmetz.wordpress.com/idees-lorraine-alsace/les-incontournables/)

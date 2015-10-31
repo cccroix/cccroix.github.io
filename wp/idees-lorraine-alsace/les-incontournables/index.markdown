@@ -61,6 +61,3 @@ C'est un saint chrétien : dans l'immense basilique de Saint-Nicolas de Port, un
 
 ![alt](http://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Strasbourg_Cathedral_inside.jpg/220px-Strasbourg_Cathedral_inside.jpg)Strasbourg est connu pour le Parlement Européen et sa cathédrale magnifique, mais c'est toute l'Ill qui est classée à l'UNESCO. Il faut se balader dans la petite France, admirer la maison Kamerzell en face de la cathédrale où tu aura vu passer les apôtres de l'immense l'horloge astronomique (12h30 tous les jours), passer une soirée branchée en Krutenau  et enfin aller au marché de Noël en décembre pour s'imprégner totalement de cette ville où, énarque, tu te prépareras à devenir maître du monde.
 Strasbourg est à moins de 2h de Metz.
-
-
-[Suivant : Balades mythiques](http://cccroixmetz.wordpress.com/idees-lorraine-alsace/balades-mythiques/)

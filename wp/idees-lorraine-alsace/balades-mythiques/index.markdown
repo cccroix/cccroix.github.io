@@ -137,7 +137,3 @@ D'abord, tout près de Strasbourg se trouve [Marienthal](http://www.basiliquemar
 Un peu plus proche, près à Danne-et-Quatre-Vente près de Phalsbourg, Notre-Dame de [Bonnefontaine](http://cathophalsbourg.over-blog.com/categorie-12103185.html) doit son renom à une source miraculeuse qui aurait guéri des soldats sous Napoléon Ier. Une petite communauté de franciscains loge à cet endroit, perdu au milieu d'une grande forêt. _(1h20 de Metz)_
 
 Il y a également [Benoite-Vaux](http://catholique-verdun.cef.fr/spip/spip.php?article138) : étymologiquement _la_ _vallé bénie_, ce sanctuaire est nommé ainsi pour la première fois au XIIème siècle. Des bûcherons, attirés par des chants célestes,  y ont découvert une source près de laquelle se trouvait une statue de Marie. Des religieuses assurent l'accueil mais tu devras y inviter un prêtre pour que cela soit plus profitable ! _(à 1h10 de Metz)_
-
-
-[Précédent : Les incontournables](http://cccroixmetz.wordpress.com/idees-lorraine-alsace/les-incontournables/)
-[Suivant : Touristes !](http://cccroixmetz.wordpress.com/idees-lorraine-alsace/touristes/)
