@@ -5,6 +5,7 @@ date: 2014-09-21 15:00:12+00:00
 layout: page
 slug: activites-2
 title: Activités
+published: false
 wordpress_id: 220
 ---
 

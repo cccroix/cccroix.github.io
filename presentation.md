@@ -2,6 +2,7 @@
 layout: page
 title: Qui sommes-nous ?
 permalink: /presentation/
+redirect_from: "/wp/la-cc/"
 date: 2015-10-30 19:00:00 CET
 author: LGD
 nav: Qui sommes-nous ?

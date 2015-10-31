@@ -5,6 +5,7 @@ date: 2012-09-08 10:14:41+00:00
 layout: page
 slug: la-cc
 title: La CC-Croix, <del>c'est</del> c’était quoi ?
+published: false  # redirected to "/presentation/"
 wordpress_id: 11
 ---
 
