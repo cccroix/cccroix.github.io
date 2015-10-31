@@ -10,6 +10,9 @@ nav: false
     {% if n != 0 %}
         <div class="blocnote">
         {{ page.content }}
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/blob/master/blocnote.md">
+            <span class="source"><i class="fa fa-pencil"></i> source</span>
+        </a>
         </div>
     {% endif %}
 {% endif %}
