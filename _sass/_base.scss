@@ -271,3 +271,10 @@ pre {
 .rss-subscribe a {
     color: $orange-color-rss;
 }
+
+/**
+* Link to the repo
+*/
+.jekyll-source a {
+    color: $red-color-jekyll;
+}
