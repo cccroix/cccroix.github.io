@@ -35,4 +35,5 @@ Liens institutionnels et associatifs :
 * La [Marche pour la Vie](http://enmarchepourlavie.fr/)
 * Conférence des Évèques de France : [actualités](http://www.eglise.catholique.fr/)
 * Aide à l'Église en Détresse : [actualités](http://www.aed-france.org/actualite/a-la-une/)
+* Persécutions : [Observatoire de la christianophobie](http://www.christianophobie.fr/)
 * Racisme anti-chrétien : [L’AGRIF](http://www.lagrif.fr/)
