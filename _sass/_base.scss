@@ -278,3 +278,17 @@ pre {
 .jekyll-source a {
     color: $red-color-jekyll;
 }
+
+
+/**
+* Bloc-note
+*/
+
+.blocnote {
+    font-size: 90%;
+    background-color: $orange-color-note;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px grey;
+}

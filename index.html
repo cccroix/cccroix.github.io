@@ -4,7 +4,18 @@ title: Index
 nav: false
 ---
 
+{% assign page = site.pages | where: "role", "blocnote" | first %}
+{% if page %}
+    {% assign n = page.content | number_of_words %}
+    {% if n != 0 %}
+        <div class="blocnote">
+        {{ page.content }}
+        </div>
+    {% endif %}
+{% endif %}
+
 <div class="home">
+
 
   <h1 class="page-heading">Articles
     <span class="source">
