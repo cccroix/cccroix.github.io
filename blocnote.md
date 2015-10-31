@@ -1,7 +1,7 @@
 ---
 layout: null
 role: blocnote
-published: false
+published: true
 # sera affiché avant l’index des articles
 ---
 
