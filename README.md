@@ -18,6 +18,10 @@ Nous vous invitons fortement à prendre connaissance de la documentation de Jeky
 - Icônes : [Font Awesome](http://fontawesome.io/)
 - Recherche : [Tipue Search](https://github.com/Tipue/Tipue-Search)
 
+### Crédits
+
+- Les image d'illustration des églises sont issues de WikimediaCommons.
+
 ## Conventions
 
 ### Images des articles
