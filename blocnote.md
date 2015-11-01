@@ -11,4 +11,7 @@ published: true
 
 ## Vendredi 6 novembre : Partage d'Évangile
 
+## Dimanche 8 novembre : reprise des messes à Queuleu (9h)
+
 ## Mercredi 11 novembre : [Saint Martin]({% post_url 2015-11-02-saint-martin %})
+
