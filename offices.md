@@ -12,7 +12,9 @@ published: true
 
 ## Liens utiles
 
-Il y a une feuille paroissiale à jour pour les églises du Centre-Ville [à cette adresse](http://cathometz.fr/), dans la barre latérale droite (« Annonces »).
+- Il y a une feuille paroissiale à jour pour les églises du Centre-Ville [à cette adresse](http://cathometz.fr/), dans la barre latérale droite (« Annonces »).
+
+- Le dépliant de la [Mission Étudiante](http://www.metzionetudiante.net/), avec de nombreuses infos sur les activités de l’année, est disponible [à cette adresse](/depliant.pdf).
 
 <h2>Messes du dimanche <span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span></h2>
 

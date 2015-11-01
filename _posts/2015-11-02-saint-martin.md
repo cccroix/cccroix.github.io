@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11 Novembre : Fête de la Saint Martin
+title: "11 Novembre : Fête de la Saint Martin"
 author: LGD
 date: 2015-11-02 00:04:23 CET
 categories: agenda
