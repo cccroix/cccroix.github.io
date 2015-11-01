@@ -12,7 +12,7 @@ tags:
 - Mis en avant
 ---
 
-Une [nouvelle page](https://cccroixmetz.wordpress.com/activites-2/confessions-a-metz/) agrégeant tous les horaires de confession de Metz vient d'être créée sur le site, afin de faciliter vos recherches. Attention les tranches horaires ne sont souvent pas plus longues qu'une demi-heure !
+Une [nouvelle page](/confessions/) agrégeant tous les horaires de confession de Metz vient d'être créée sur le site, afin de faciliter vos recherches. Attention les tranches horaires ne sont souvent pas plus longues qu'une demi-heure !
 
 N'hésitez pas à transmettre à c @ rezometz.fr si vous avez d'autres horaires !
 
