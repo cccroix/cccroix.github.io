@@ -30,9 +30,7 @@ var tipuesearch_replace = {'words': [
 // Weighting
 
 var tipuesearch_weight = {'weight': [
-     {'url': 'http://www.tipue.com', 'score': 200},
-     {'url': 'http://www.tipue.com/search', 'score': 100},
-     {'url': 'http://www.tipue.com/about', 'score': 100}
+     {'url': 'http://perdu.com/', 'score': 200}
 ]};
 
 
@@ -41,7 +39,7 @@ var tipuesearch_weight = {'weight': [
 var tipuesearch_stem = {'words': [
      {'word': 'e-mail', 'stem': 'email'},
      {'word': 'javascript', 'stem': 'jquery'},
-     {'word': 'javascript', 'stem': 'js'},
+     {'word': 'javascript', 'stem': 'js'}
 ]};
 
 
