@@ -324,3 +324,12 @@ pre {
 .intense {
     cursor: url('/css/plus_cursor.png') 25 25, auto;
 }
+
+
+/**
+* church pictures
+*/
+img.church {
+    max-width: 95%;
+    max-height: $church-max-height;
+}
