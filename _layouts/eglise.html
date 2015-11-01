@@ -61,8 +61,18 @@ layout: default
 {% endfor %}
 </ul>
 
-<center><img alt="{{ page.key }}" src="{{ site.url }}/img/eglises/{{ page.key }}.jpg" width="40%"></center>
+<center><img alt="{{ page.key }}" src="{{ site.url }}/img/eglises/{{ page.key }}.jpg" class="intense" width="40%"></center>
 
 <article class="eglise-content">
 {{ content }}
 </article>
+
+
+<script src="/js/intense.min.js"></script>
+<script>
+window.onload = function() {
+    // Intensify all images with the 'intense' classname.
+    var elements = document.querySelectorAll( '.intense' );
+    Intense( elements );
+}
+</script>
