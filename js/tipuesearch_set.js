@@ -30,7 +30,7 @@ var tipuesearch_replace = {'words': [
 // Weighting
 
 var tipuesearch_weight = {'weight': [
-     {'url': 'https://cccroix.github.io/', 'score': 200}
+     {'url': 'https://cccroix.github.io/', 'score': 0}
 ]};
 
 
