@@ -28,11 +28,11 @@ var tipuesearch_replace = {'words': [
 
 
 // Weighting
-
+/*
 var tipuesearch_weight = {'weight': [
      {'url': 'http://perdu.com/', 'score': 200}
 ]};
-
+*/
 
 // Stemming
 
