@@ -5,7 +5,10 @@ published: true
 # sera affiché avant l’index des articles
 ---
 
-# Messes de la Toussaint :
+## Vêpres de la Toussaint :
 
-- **Cathédrale** : départ **9h15** place du Kif
-- **Borny** : départ **10h45** place du Kif
+- à la **Cathédrale** à **17h**
+
+## Commémoraison de tous les Fidèles défunts :
+
+- messe à **10h** à la **Cathédrale**
