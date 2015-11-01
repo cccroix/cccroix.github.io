@@ -10,6 +10,9 @@ position: 2
 published: true
 ---
 
+## Liens utiles
+
+Il y a une feuille paroissiale à jour pour les églises du Centre-Ville [à cette adresse](http://cathometz.fr/), dans la barre latérale droite (« Annonces »).
 
 <h2>Messes du dimanche <span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span></h2>
 
