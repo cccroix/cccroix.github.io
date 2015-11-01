@@ -8,3 +8,5 @@ published: true
 ## Lundi 2 novembre : Commémoraison de tous les Fidèles défunts
 
 - Messe à **10h** à la **Cathédrale**
+
+## Vendredi 6 novembre : Partage d'Évangile
