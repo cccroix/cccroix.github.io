@@ -7,8 +7,22 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://cccroix.github.io" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username: cccroix
+github_repo: cccroix.github.io
 paginate: 10
 paginate_path: "/page:num/"
+
+default_text: |
+    ---
+    layout: post
+    title: Mon titre
+    author: monalias
+    date: AAAA-MM-JJ hh:mm:ss CET
+    categories: nouvelles
+    ---
+
+    # Mon sous-titre
+
+    Mon texte.
 
 collections:
  eglises:
@@ -16,3 +30,9 @@ collections:
 
 # Build settings
 markdown: kramdown
+
+sass:
+    style: compressed
+
+gems:
+    - jekyll-redirect-from

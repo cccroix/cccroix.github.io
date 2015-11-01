@@ -4,6 +4,9 @@ title: Se confesser à Metz
 permalink: /confessions/
 date: 2015-10-26 22:54:00 CET
 author: luc
+nav: Confessions
+blocnote: true
+position: 3
 published: true
 ---
 
@@ -14,6 +17,8 @@ published: true
 Ces horaires sont soumis aux aléas du temps. Il est donc conseillé de vérifier préalablement si l'on ne souhaite pas se casser le nez. Pour être sûr de trouver un prêtre, la meilleure solution reste de viser les messes.
 
 Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire).
+
+<h2>Horaires de confessions <span class="source">{% include edit.html path='_data/confessions.yaml' %}</span></h2>
 
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 

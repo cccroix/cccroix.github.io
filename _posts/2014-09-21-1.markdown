@@ -1,0 +1,18 @@
+---
+author: ccmetztechnopole
+comments: false
+date: 2014-09-21 12:39:25+00:00
+layout: post
+slug: '1'
+title: Refonte du site en cours
+wordpress_id: 185
+published: false
+categories:
+- Maintenance
+tags:
+- Mis en avant
+---
+
+Bonjour,
+
+Je suis en train de refaire le site de A à Z. Vous pouvez donner votre avis dans la rubrique [contact](http://cccroixmetz.wordpress.com/la-cc/contacts/).

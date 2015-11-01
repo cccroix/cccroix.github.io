@@ -1,0 +1,21 @@
+---
+author: ccmetztechnopole
+comments: false
+date: 2014-09-25 14:00:59+00:00
+layout: post
+slug: logo-du-cc%e2%80%a0
+title: Logo du CC†
+wordpress_id: 317
+categories:
+- Maintenance
+tags:
+- Mis en avant
+---
+
+Comme vous l'avez peut-être remarqué, j'ai refait l'interface du site : changement du plan, ajout d'un système de brèves, modification de l'identité visuelle du site, etc.
+
+Vient le moment de choisir un logo. J'en ai imaginé deux, dans lesquels je mélange le blason de Metz, le logo de Supélec, l'agneau pascal, et l'acronyme CC†. Votez pour celui qui vous plaît, ou demandez-en un autre ci-dessous !
+
+[polldaddy poll=8331210]
+
+

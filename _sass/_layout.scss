@@ -10,21 +10,32 @@
     position: relative;
 }
 
+
 .site-title {
+    display: inline-block;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+
+    @include media-query($on-palm) {
+        float: left;
+    }
+
+    img {
+        height: 56px;
+    }
+
 }
 
+
 .site-nav {
-    float: right;
+    display: inline-block;
     line-height: 56px;
 
     .menu-icon {
@@ -40,7 +51,7 @@
             margin-left: 20px;
         }
     }
-
+    
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
@@ -93,7 +104,8 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit / 2;
 }
 
 .footer-heading {
@@ -115,34 +127,37 @@
 }
 
 .footer-col {
+    text-align: center;
     float: left;
-    margin-bottom: $spacing-unit / 2;
+    // margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
+        text-align: center;
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
         width:         calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
+        text-align: center;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
@@ -150,6 +165,7 @@
 
 @include media-query($on-palm) {
     .footer-col {
+        text-align: center;
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
@@ -233,4 +249,10 @@
             font-size: 18px;
         }
     }
+}
+
+.elevator {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }

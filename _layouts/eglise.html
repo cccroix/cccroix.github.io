@@ -6,10 +6,12 @@ layout: default
 {% assign messes = site.data.messes_dimanche | where: "eglise", page.key %}
 {% assign confessions = site.data.confessions | where: "eglise", page.key %}
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
+{% assign path = '_eglises/' | append: page.key | append: '.md' %}
 
-<h1>{{ page.nom }} <small>({{ page.lieu }})</small></h1>
+<h1>{{ page.nom }} <small>({{ page.lieu }})</small><span class="source">{% include edit.html path=path %}</span></h1>
 
-<p><i class="fa fa-map-marker"></i> {{ page.adresse }}</p>
+<p><i class="fa fa-map-marker"></i> {{ page.adresse }}
+<br /></p>
 
 <ul>
     <li>
@@ -31,16 +33,23 @@ layout: default
     {% endif %}
 </ul>
 
-<h2>Messes dominicales</h2>
+<h2>Messes dominicales
+<span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span>
+</h2>
+
 
 <ul>
 {% for messe in messes %}
     <li><b>{{ messe.horaire }}</b>{% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
-{% endfor %}
     </li>
+{% endfor %}
 </ul>
 
-<h2>Horaires de confession</h2>
+
+<h2>Horaires de confession
+<span class="source">{% include edit.html path='_data/confessions.yaml' %}</span>
+</h2>
+
 
 <ul>
 {% for jour in semaine %}
@@ -52,6 +61,18 @@ layout: default
 {% endfor %}
 </ul>
 
+<center><img alt="{{ page.key }}" lowsrc="/img/eglises/{{ page.key }}.low.jpg" src="/img/eglises/{{ page.key }}.progr.jpg" class="intense church"></center>
+
 <article class="eglise-content">
 {{ content }}
 </article>
+
+
+<script src="/js/intense.min.js"></script>
+<script>
+window.onload = function() {
+    // Intensify all images with the 'intense' classname.
+    var elements = document.querySelectorAll( '.intense' );
+    Intense( elements );
+}
+</script>

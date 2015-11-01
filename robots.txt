@@ -2,7 +2,8 @@
 layout: null
 ---
 User-agent: *
-Disallow: Gemfile
-Disallow: README.md
-Sitemap: {{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url | url_escape }}
+Disallow: /Gemfile
+Disallow: /README.md
+Disallow: /blocnote.html
+Sitemap: {{ '/sitemap.xml' | prepend: site.baseurl | prepend: site.url }}
 Host: {{ site.url | split: '/' | last }}

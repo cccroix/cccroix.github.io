@@ -204,6 +204,25 @@ pre {
     }
 }
 
+.wrapper.nav {
+    max-width: 100%;
+    min-width: 90%;
+    margin: auto;
+    text-align: center;
+    .footer {
+        text-align: center;
+    }
+}
+
+.search {
+    display: inline-block;
+    min-width: 3cm;
+    margin-left: 10px 10px 10px 10px;
+    @include media-query($on-palm) {
+        width: auto;
+    }
+}
+
 
 
 /**
@@ -235,4 +254,73 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+
+/**
+* Source/edit links
+*/
+.source {
+    font-size: 10pt;
+}
+
+
+/**
+* RSS link
+*/
+.rss-subscribe a {
+    color: $orange-color-rss;
+}
+
+/**
+* Link to the repo
+*/
+.jekyll-source a {
+    color: $red-color-jekyll;
+}
+
+
+/**
+* Bloc-note
+*/
+
+.blocnote {
+    position: relative;
+    font-size: 90%;
+    display: inline-block;
+    z-index: -1;
+    background-color: $orange-color-note;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 20px 10px 10px grey;
+}
+
+.blocnote:after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    border-color: #FBDD46 grey;
+    border-style: solid;
+    border-width: 20px 30px 0px 0px ;
+    height: 0px;
+    width: 0px;
+    display: block;
+    box-shadow: 0pt 2px 1px transparent, -3px 1px 1px grey;
+}
+
+/**
+* intense images
+*/
+.intense {
+    cursor: url('/css/plus_cursor.png') 25 25, auto;
+}
+
+
+/**
+* church pictures
+*/
+img.church {
+    max-width: 95%;
+    max-height: $church-max-height;
 }

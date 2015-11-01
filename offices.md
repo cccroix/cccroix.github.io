@@ -4,10 +4,15 @@ title: Horaires des offices
 permalink: /offices/
 date: 2015-10-26 11:00:00 CET
 author: luc
+nav: Messes
+blocnote: true
+position: 2
 published: true
 ---
 
-## Messes du dimanche
+
+<h2>Messes du dimanche <span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span></h2>
+
 
 {% assign messes = site.data.messes_dimanche %}
 {% assign eglises = site.eglises %}
