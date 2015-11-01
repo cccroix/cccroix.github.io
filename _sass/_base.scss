@@ -308,6 +308,16 @@ pre {
     box-shadow: 0pt 2px 1px transparent, -3px 1px 1px grey;
 }
 
+@media(max-width:360px){
+.blocnote:after{
+	display: none;
+}
+
+.blocnote{
+    position: static;
+}
+}
+
 /**
 * intense images
 */
