@@ -10,7 +10,7 @@ Ce site est hébergé sur **github** en utilisant cf. [Jekyll with GitHub Pages]
 
 Nous vous invitons fortement à prendre connaissance de la documentation de Jekyll avant de contribuer.
 
-## Bibliothèques utilisées (*used libraries*)
+### Bibliothèques utilisées (*used libraries*)
 
 - Animation CSS : [WOW.js](https://github.com/matthieua/WOW)
 - Animation CSS : [animate.css](https://github.com/daneden/animate.css)
