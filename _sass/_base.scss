@@ -285,14 +285,28 @@ pre {
 */
 
 .blocnote {
+    position: relative;
+    display: block;
     font-size: 90%;
     background-color: $orange-color-note;
     padding: 20px;
     margin: 30px;
     border-radius: 20px;
-    box-shadow: 10px 5px 5px grey;
+    box-shadow: 20px 10px 10px grey;
 }
 
+.blocnote:after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    border-color: #FBDD46 grey;
+    border-style: solid;
+    border-width: 20px 30px 0px 0px ;
+    height: 0px;
+    width: 0px;
+    display: block;
+    box-shadow: 0pt 2px 1px transparent, -3px 1px 1px grey;
+}
 
 /**
 * intense images
