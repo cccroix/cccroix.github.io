@@ -10,7 +10,6 @@ layout: default
 
 <h1>{{ page.nom }} <small>({{ page.lieu }})</small><span class="source">{% include edit.html path=path %}</span></h1>
 
-
 <p><i class="fa fa-map-marker"></i> {{ page.adresse }}
 <br /></p>
 
@@ -62,6 +61,7 @@ layout: default
 {% endfor %}
 </ul>
 
+<center><img alt="{{ page.key }}" src="{{ site.url }}/img/eglises/{{ page.key }}.jpg" width="40%"></center>
 
 <article class="eglise-content">
 {{ content }}
