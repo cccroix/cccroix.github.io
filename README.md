@@ -10,6 +10,14 @@ Ce site est hébergé sur **github** en utilisant cf. [Jekyll with GitHub Pages]
 
 Nous vous invitons fortement à prendre connaissance de la documentation de Jekyll avant de contribuer.
 
+## Bibliothèques utilisées (*used libraries*)
+
+- Animation CSS : [WOW.js](https://github.com/matthieua/WOW)
+- Animation CSS : [animate.css](https://github.com/daneden/animate.css)
+- Images en plein écran : [intense-images](https://github.com/tholman/intense-images)
+- Icônes : [Font Awesome](http://fontawesome.io/)
+- Recherche : [Tipue Search](https://github.com/Tipue/Tipue-Search)
+
 ## Conventions
 
 ### Images des articles
