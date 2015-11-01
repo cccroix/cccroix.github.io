@@ -30,7 +30,8 @@ var tipuesearch_replace = {'words': [
 // Weighting
 
 var tipuesearch_weight = {'weight': [
-     {'url': 'https://cccroix.github.io/', 'score': 0}
+     {'url': '/', 'score': -100},
+     {'url': '/blocnote.html', 'score': -1000}
 ]};
 
 
