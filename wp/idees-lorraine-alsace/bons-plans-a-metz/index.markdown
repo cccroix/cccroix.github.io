@@ -15,6 +15,6 @@ Quelques bonnes idées :
 ![Cathédrale Metz](http://upload.wikimedia.org/wikipedia/commons/5/59/Metz_cathedrale_saint_etienne_vue_en_bas_rue_d_estree_sous_lumiere_hiver.jpg)
 
 * et toutes les vieilles églises du centre-ville ! ainsi que le Temple Neuf : le piston pour visiter l'intérieur est attendu !!
-* en décembre : le défilé de la Saint-Nicolas (voir [Idées : Lorraine & Alsace](http://cccroixmetz.wordpress.com/idees-lorraine-alsace/)) et le marché de Noël sur la place Saint-Louis.
+* en décembre : le défilé de la Saint-Nicolas (voir [Les Incontournables](/wp/idees-lorraine-alsace/les-incontournables/) et le marché de Noël sur la place Saint-Louis.
 * les[ musées](http://musee.metzmetropole.fr/), le [Centre Pompidou](http://www.centrepompidou-metz.fr/),
 * etc... à compléter !!

@@ -11,139 +11,61 @@ categories:
 tags:
 - Mis en avant
 ---
-
 Les horaires des laudes ont été mis à jour (cf. colonne de droite). N'hésitez pas à passer prier avec nous de temps en temps (à 8h10) !
 
 Ce sont :
 
-**Lundi** : LGD A211
-**Mardi** : Guillaume C-210-2
-**Mercredi** : LGD A211
-**Jeudi** : Cyprien C00
-**Vendredi** : Luc C211
+- **Lundi** : LGD A211
+- **Mardi** : Guillaume C-210-2
+- **Mercredi** : LGD A211
+- **Jeudi** : Cyprien C00
+- **Vendredi** : Luc C211
 
-[caption id="attachment_435" align="aligncenter" width="512"][![ Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390 Crédit : Gallica](https://cccroixmetz.files.wordpress.com/2015/09/consulterelementnum.jpeg)](https://cccroixmetz.files.wordpress.com/2015/09/consulterelementnum.jpeg) Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390  
-Crédit : Gallica[/caption]
+![ Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390 Crédit : Gallica](https://cccroixmetz.files.wordpress.com/2015/09/consulterelementnum.jpeg)
+
+Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390  
+Crédit : Gallica
 
 **Remarque sur l'image** : [Guillaume de Digulleville](https://fr.wikipedia.org/wiki/Guillaume_de_Digulleville) était un moine de l'abbaye de Chaalis. Il a écrit divers poèmes dont _Le pélerinage de la vie humaine_ :
 
-
 <blockquote>
+A vis m'estoit si com dormoie
+Que je pelerins estoie
 
-> 
-> 
+Qui d'aler estoie excité
 
-> 
-> 
+En Jerusalem la cité.
 
-> 
-> A vis m'estoit si com dormoie
-> 
-> 
+En .I. mirour, ce me sembloit,
 
-> 
-> Que je pelerins estoie
-> 
-> 
+Qui sanz mesure grans estoit
 
-> 
-> Qui d'aler estoie excité
-> 
-> 
+Celle cité aperceue
 
-> 
-> En Jerusalem la cité.
-> 
-> 
+Avoie de loing et veue.
 
-> 
-> En .I. mirour, ce me sembloit,
-> 
-> 
+Mont me sembloit de grant atour
 
-> 
-> Qui sanz mesure grans estoit
-> 
-> 
+Celle cité ens et entour.
 
-> 
-> Celle cité aperceue
-> 
-> 
+Les chemins et les alees
 
-> 
-> Avoie de loing et veue.
-> 
-> 
+D'or en estoient pavees,
 
-> 
-> Mont me sembloit de grant atour
-> 
-> 
 
-> 
-> Celle cité ens et entour.
-> 
-> 
+En haut assis son fondement
 
-> 
-> 
+Estoit et son maçonnement
 
-> 
-> Les chemins et les alees
-> 
-> 
+De vives pierres fait estoit
 
-> 
-> D'or en estoient pavees,
-> 
-> 
+Et haut mur entour la clooit.
 
-> 
-> 
+Mont i avoit de mansïons,
 
-> 
-> 
+De lieus et d'abitatïons.
 
-> 
-> En haut assis son fondement
-> 
-> 
+Là estoit toute leëce,
 
-> 
-> Estoit et son maçonnement
-> 
-> 
-
-> 
-> De vives pierres fait estoit
-> 
-> 
-
-> 
-> 
-
-> 
-> Et haut mur entour la clooit.
-> 
-> 
-
-> 
-> Mont i avoit de mansïons,
-> 
-> 
-
-> 
-> De lieus et d'abitatïons.
-> 
-> 
-
-> 
-> Là estoit toute leëce,
-> 
-> 
-
-> 
-> Toute joie sans tristece.
-> 
-> </blockquote>
+Toute joie sans tristece.
+</blockquote>
