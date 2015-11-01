@@ -5,10 +5,10 @@ published: true
 # sera affiché avant l’index des articles
 ---
 
-## Vêpres de la Toussaint :
+## Dimanche 1er novembre : Toussaint
 
-- à la **Cathédrale** à **17h**
+- **Vêpres** à la **Cathédrale** à **17h**
 
-## Commémoraison de tous les Fidèles défunts :
+## Lundi 2 novembre : Commémoraison de tous les Fidèles défunts
 
 - messe à **10h** à la **Cathédrale**

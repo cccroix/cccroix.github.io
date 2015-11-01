@@ -5,6 +5,7 @@ permalink: /confessions/
 date: 2015-10-26 22:54:00 CET
 author: luc
 nav: Confessions
+blocnote: true
 position: 3
 published: true
 ---

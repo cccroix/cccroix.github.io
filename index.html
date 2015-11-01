@@ -4,18 +4,7 @@ title: Index
 nav: false
 ---
 
-{% assign page = site.pages | where: "role", "blocnote" | first %}
-{% if page %}
-    {% assign n = page.content | number_of_words %}
-    {% if n != 0 %}
-        <div class="blocnote wow bounceInRight">
-        {{ page.content }}
-        <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/blob/master/blocnote.md">
-            <span class="source"><i class="fa fa-pencil"></i> source</span>
-        </a>
-        </div>
-    {% endif %}
-{% endif %}
+{% include blocnote.html %}
 
 <div class="home">
 
