@@ -11,4 +11,4 @@ published: true
 
 ## Lundi 2 novembre : Commémoraison de tous les Fidèles défunts
 
-- messe à **10h** à la **Cathédrale**
+- Messe à **10h** à la **Cathédrale**
