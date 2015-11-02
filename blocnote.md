@@ -9,7 +9,7 @@ published: true
 
 - Messe à **10h** à la **Cathédrale**
 
-### Vendredi 6 novembre : Partage d'Évangile
+### Jeudi 5/Vendredi 6 novembre : Partage d'Évangile --> choix de la date ici : [Framadate](https://framadate.org/ZpnIMpNeGeZ3sAyc)
 
 ### Dimanche 8 novembre : reprise des messes à Queuleu (9h)
 
