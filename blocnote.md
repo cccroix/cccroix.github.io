@@ -5,7 +5,7 @@ published: true
 # sera affiché avant l’index des articles
 ---
 
-## Lundi 2 novembre : Commémoration de tous les fidèles défunts (jour des morts)
+## Lundi 2 novembre : Commémoraison de tous les fidèles défunts (jour des morts)
 
 - Messe à **10h** à la **Cathédrale**
 
