@@ -13,12 +13,18 @@ published: true
 {% assign confessions = site.data.confessions %}
 {% assign eglises = site.eglises %}
 
-## Avertissements
-Ces horaires sont soumis aux aléas du temps. Il est donc conseillé de vérifier préalablement si l'on ne souhaite pas se casser le nez. Pour être sûr de trouver un prêtre, la meilleure solution reste de viser les messes.
+## Liens utiles
 
-Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire).
+- Il y a une feuille paroissiale à jour pour les églises du Centre-Ville [à cette adresse](http://cathometz.fr/), dans la barre latérale droite (« Annonces »).
+
 
 <h2>Horaires de confessions <span class="source">{% include edit.html path='_data/confessions.yaml' %}</span></h2>
+
+### Avertissements
+
+Les horaires ci-dessous sont soumis aux aléas du temps. Il est donc conseillé de vérifier préalablement si l'on ne souhaite pas se casser le nez. Pour être sûr de trouver un prêtre, la meilleure solution reste de viser les messes.
+
+Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire).
 
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 
