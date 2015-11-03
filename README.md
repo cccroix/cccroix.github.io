@@ -14,6 +14,7 @@ Nous vous invitons fortement à prendre connaissance de la documentation de Jeky
 
 - Animation CSS : [WOW.js](https://github.com/matthieua/WOW)
 - Animation CSS : [animate.css](https://github.com/daneden/animate.css)
+- *Responsive layout* : [Pure.css](http://purecss.io/)
 - Images en plein écran : [intense-images](https://github.com/tholman/intense-images)
 - Icônes : [Font Awesome](http://fontawesome.io/)
 - Recherche : [Tipue Search](https://github.com/Tipue/Tipue-Search)
