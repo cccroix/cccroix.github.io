@@ -4,6 +4,8 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for page in site.html_pages %}
+    {% if page.role && page.role == "blocnote" %}
+    {% else %}
     <url>
         <loc>{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}</loc>
         {% if page.date %}
@@ -12,6 +14,7 @@ layout: null
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
+    {% endif %}
     {% endfor %}
     {% for page in site.eglises %}
     <url>
