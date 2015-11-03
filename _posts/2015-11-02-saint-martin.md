@@ -6,8 +6,6 @@ date: 2015-11-02 00:04:23 CET
 categories: agenda
 ---
 
-# 11 Novembre 2015
-
 Toute la journée à l’église Saint-Martin
 
 - 8h30 : Laudes
