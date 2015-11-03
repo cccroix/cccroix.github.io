@@ -5,10 +5,10 @@ published: true
 # sera affiché avant l’index des articles
 ---
 
-## Dimanche 1er novembre : Toussaint
+### Dimanche 8 novembre : reprise des messes à Queuleu (9h)
 
-- **Vêpres** à la **Cathédrale** à **17h**
+### Mercredi 11 novembre : [Saint Martin]({% post_url 2015-11-02-saint-martin %})
 
-## Lundi 2 novembre : Commémoraison de tous les Fidèles défunts
+### Vendredi 13 novembre : partage d’évangile
 
-- Messe à **10h** à la **Cathédrale**
+### Samedi 21 — Dimanche 22 novembre : week-end de récollection à Argancy

@@ -1,20 +1,17 @@
 ---
-layout: default
+layout: two_cols
 title: Index
 nav: false
 ---
 
-{% include blocnote.html %}
-
 <div class="home">
-
 
   <h1 class="page-heading wow fadeInLeft">Articles
     <span class="source">
         {% if site.default_text %}
-        <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
+        <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/?filename={{ '_posts/' | cgi_escape }}AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
         {% else %}
-        <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/_posts?filename=AAAA-MM-JJ-mon-titre.md">
+        <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/?filename={{ '_posts/' | cgi_escape }}AAAA-MM-JJ-mon-titre.md">
         {% endif %}
             <i class="fa fa-plus"></i>
         </a>

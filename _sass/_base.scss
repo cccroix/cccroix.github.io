@@ -13,6 +13,12 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: $base-font-family, serif;
+}
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -292,10 +298,8 @@ pre {
     position: relative;
     font-size: 90%;
     display: inline-block;
-    z-index: -1;
     background-color: $orange-color-note;
     padding: 20px;
-    margin: 30px;
     border-radius: 20px;
     box-shadow: 20px 10px 10px grey;
 }
