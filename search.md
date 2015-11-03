@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: one_col
 title: Résultats de la recherche
 permalink: /search.html
 author: luc
