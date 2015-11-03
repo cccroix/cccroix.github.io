@@ -6,7 +6,7 @@ nav: false
 
 <div class="home">
 
-  <h1 class="page-heading wow fadeInLeft">Articles
+  <h1 class="page-heading wow swing">Articles
     <span class="source">
         {% if site.default_text %}
         <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/?filename={{ '_posts/' | cgi_escape }}AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
@@ -47,14 +47,15 @@ nav: false
 
   <ul class="post-list">
     {% for post in paginator.posts %}
-      <li class="wow fadeInLeft">
+      <li class="wow fadeInRight">
         <span class="post-meta">
             {% include date.html date=post.date %}
         </span>
 
-        <h2>
+        <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h1>
+        {{ post.content }}
       </li>
     {% endfor %}
   </ul>
