@@ -1,3 +1,10 @@
+/*  specific fonts of the website
+    only free fonts are used
+    
+    $title-font-family and $base-font-family variables of main.scss to be changed.
+********
+********/
+
 @font-face {
     font-family: 'chantelli_antiquaregular';
     src: url('../fonts/Chantelli_Antiqua-webfont.eot');
@@ -8,5 +15,27 @@
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face {
+    font-family: 'gandhi_sansregular';
+    src: url('../fonts/GandhiSans-Regular-webfont.eot');
+    src: url('../fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-Regular-webfont.svg#gandhi_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'exo_black';
+    src: url('../fonts/Exo2.0-Black-webfont.eot');
+    src: url('../fonts/Exo2.0-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Exo2.0-Black-webfont.woff') format('woff'),
+         url('../fonts/Exo2.0-Black-webfont.ttf') format('truetype'),
+         url('../fonts/Exo2.0-Black-webfont.svg#exo_2.0black') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
