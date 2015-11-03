@@ -2,7 +2,7 @@
 {% if note %}
     {% assign n = note.content | number_of_words %}
     {% if n != 0 %}
-        <div class="blocnote wow bounceInLeft">
+        <div class="blocnote wow bounceInLeft" data-wow-duration="1.55s">
         {{ note.content }}
         <a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/blob/master/blocnote.md">
             <span class="source"><i class="fa fa-pencil"></i> source</span>
