@@ -206,4 +206,4 @@ Pour Borny, [les horaires sont les suivants](https://sites.google.com/site/stpau
 </table>
 Pour savoir si des événements sont prévus dans la semaine par la mission étudiante, consultez cet article plus tard. Nous sommes en train de chercher les informations !
 
-[caption id="attachment_411" align="aligncenter" width="300"][![mantegna tryptique de Vérone la crucifixuon](https://cccroixmetz.files.wordpress.com/2015/03/mantegna-tryptique-de-vc3a9rone-la-crucifixuon.jpg?w=300)](https://cccroixmetz.files.wordpress.com/2015/03/mantegna-tryptique-de-vc3a9rone-la-crucifixuon.jpg) _Mantegna_, La crucifixion[/caption]
+[![mantegna tryptique de Vérone la crucifixuon](https://cccroixmetz.files.wordpress.com/2015/03/mantegna-tryptique-de-vc3a9rone-la-crucifixuon.jpg?w=300)](https://cccroixmetz.files.wordpress.com/2015/03/mantegna-tryptique-de-vc3a9rone-la-crucifixuon.jpg) _Mantegna_, La crucifixion
