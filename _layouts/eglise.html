@@ -8,61 +8,73 @@ layout: one_col
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 {% assign path = '_eglises/' | append: page.key | append: '.md' %}
 
-<h1>{{ page.nom }} <small>({{ page.lieu }})</small><span class="source">{% include edit.html path=path %}</span></h1>
 
-<p><i class="fa fa-map-marker"></i> {{ page.adresse }}
-<br /></p>
+<div class="pure-g">
 
-<ul>
-    <li>
-        <a href="{{ page.osm }}">
-            <i class="fa fa-map-o"></i> OSM
-        </a>
-    </li>
-    <li>
-        <a href="{{ page.google }}">
-            <i class="fa fa-map"></i> Google Map
-        </a>
-    </li>
-    {% if page.site %}
-    <li>
-        <a href="{{ page.site }}">
-            <i class="fa fa-link"></i> Site
-        </a>
-    </li>
+  <div class="pure-u-1 pure-u-md-1-2">
+    <h1>{{ page.nom }} <small>({{ page.lieu }})</small><span class="source">{% include edit.html path=path %}</span></h1>
+    <p><i class="fa fa-map-marker"></i> {{ page.adresse }}
+    <br /></p>
+
+    <ul>
+        <li>
+            <a href="{{ page.osm }}">
+                <i class="fa fa-map-o"></i> OSM
+            </a>
+        </li>
+        <li>
+            <a href="{{ page.google }}">
+                <i class="fa fa-map"></i> Google Map
+            </a>
+        </li>
+        {% if page.site %}
+        <li>
+            <a href="{{ page.site }}">
+                <i class="fa fa-link"></i> Site
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+
+    <h2>Messes dominicales
+    <span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span>
+    </h2>
+
+
+    <ul>
+    {% for messe in messes %}
+        <li><b>{{ messe.horaire }}</b>{% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
+        </li>
+    {% endfor %}
+    </ul>
+
+
+    <h2>Horaires de confession
+    <span class="source">{% include edit.html path='_data/confessions.yaml' %}</span>
+    </h2>
+
+
+    <ul>
+    {% for jour in semaine %}
+    {% for confession in confessions  %}
+    {% if confession.jour contains jour %}
+        <li><strong>{{ jour }}</strong> – {% if confession.horairefin  %}de {% endif %}{{confession.horaire}}{% if confession.horairefin  %} à {{ confession.horairefin }}{% endif %}{% if confession.remarque  %} − <em>{{ confession.remarque }}</em>{% endif %}</li>
     {% endif %}
-</ul>
+    {% endfor %}
+    {% endfor %}
+    </ul>
 
-<h2>Messes dominicales
-<span class="source">{% include edit.html path='_data/messes_dimanche.yaml' %}</span>
-</h2>
+    <article class="eglise-content">
+    {{ content }}
+    </article>
 
+  </div><!-- pure-u -->
 
-<ul>
-{% for messe in messes %}
-    <li><b>{{ messe.horaire }}</b>{% if messe.remarque  %} – <em>{{ messe.remarque }}</em>{% endif %}{% if messe.site  %} – <a href="{{ messe.site }}"><i class="fa fa-link"></i> lien</a>{% endif %}
-    </li>
-{% endfor %}
-</ul>
+  <div class="pure-u-1 pure-u-md-1-2">
+    <div class="padding">
+    <img alt="{{ page.key }}" src="/img/eglises/{{ page.key }}.progr.low.jpg" data-image="/img/eglises/{{ page.key }}.progr.jpg" class="intense church">
+    </div>
+  </div><!-- pure-u -->
 
+</div><!-- pure-g --><!-- pure-g -->
 
-<h2>Horaires de confession
-<span class="source">{% include edit.html path='_data/confessions.yaml' %}</span>
-</h2>
-
-
-<ul>
-{% for jour in semaine %}
-{% for confession in confessions  %}
-{% if confession.jour contains jour %}
-    <li><strong>{{ jour }}</strong> – {% if confession.horairefin  %}de {% endif %}{{confession.horaire}}{% if confession.horairefin  %} à {{ confession.horairefin }}{% endif %}{% if confession.remarque  %} − <em>{{ confession.remarque }}</em>{% endif %}</li>
-{% endif %}
-{% endfor %}
-{% endfor %}
-</ul>
-
-<img alt="{{ page.key }}" src="/img/eglises/{{ page.key }}.progr.low.jpg" data-image="/img/eglises/{{ page.key }}.progr.jpg" class="intense church">
-
-<article class="eglise-content">
-{{ content }}
-</article>
