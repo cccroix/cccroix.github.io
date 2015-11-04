@@ -11,6 +11,16 @@
   padding-right: 30px;
 }
 
+.padding-feeds {
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
+  @include media-query($on-sm) {
+      display: none;
+  }
+}
+
 .container {
   padding-top: 30px;
 }
@@ -20,6 +30,7 @@
   margin: auto;
   padding: 5%;
 }
+
 
 /**
  * Site header
@@ -215,6 +226,9 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        border-bottom-width: 1px;
+        border-bottom-color: black;
+        border-bottom-style: dotted;
     }
 }
 

@@ -6,6 +6,43 @@ layout: default
     <div class="padding-notes">
       {% include blocnote.html %}
     </div>
+    {% comment %}
+    <div class="padding-feeds">
+      <div id="nominis" class="wow bounce"></div>
+    </div>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        google.load("feeds", "1");
+        function initialize() {
+          var feed = new google.feeds.Feed("http://nominis.cef.fr/rss/nominis.php")
+          feed.load(function(result) {
+            if (!result.error) {
+              var container = document.getElementById("nominis");
+              for (var i = 0; i < result.feed.entries.length; i++) {
+                var entry = result.feed.entries[i];
+
+                // title
+                var a = document.createElement("a");
+                a.setAttribute("href", entry.link);
+                a.appendChild(document.createTextNode(entry.title));
+                
+                // description
+                var p = document.createElement("p");
+                p.appendChild(document.createTextNode(entry.content));
+                
+                // div
+                var div = document.createElement("div");
+                div.setAttribute("class", "entry");
+                div.appendChild(a);
+                div.appendChild(p);
+                container.appendChild(div);
+              }
+            }
+          });
+        }
+        google.setOnLoadCallback(initialize);
+    </script>
+    {% endcomment %}
   </div><!-- pure-u-1-5 -->
 
   <div class="pure-u-1 pure-u-sm-1 pure-u-md-17-24">

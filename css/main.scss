@@ -28,8 +28,13 @@ $red-color-jekyll: #AA0000;
 // Width of the content area
 $content-width:    800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$on-xs:            35.5em;
+$on-sm:            48em;
+$on-md:            64em;
+$on-lg:            80em;
+
+$on-palm:          $on-xs;
+$on-laptop:        $on-md;
 
 // for the church pictures
 $church-max-height: 10cm;
