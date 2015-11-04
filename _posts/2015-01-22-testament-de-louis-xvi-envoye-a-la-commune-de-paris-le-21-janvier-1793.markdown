@@ -10,28 +10,16 @@ categories:
 - Gazette
 ---
 
-**Note importante : **Nous tenons à noter que le CC✝ ne cherche en aucun cas à faire profession d'opinions politiques quelconques en publiant ce texte.
+**Note importante :** Nous tenons à noter que le CC✝ ne cherche en aucun cas à faire profession d'opinions politiques quelconques en publiant ce texte.
 
 Ce « testament » en effet est avant tout la dernière profession de foi d'un catholique qui, à l'aube de son exécution, vient de faire le point sur sa vie et qui demande à tout ceux qu'il aurait offensés par inadvertance de le pardonner et de prier pour lui ; il pardonne aussi à ceux qui ont décidé sa mort.
 
-
-
 * * *
-
-
-
-
 
 ### Envoyé à la Commune de Paris
 Le 21 janvier 1793
 
-
-
-
-
 * * *
-
-
 
 _Au nom de la tres Sainte Trinité du Pere du fils et du St Esprit. Aujourd’hui vingt cinquieme jour de Decembre, mil sept cent quatre vingt douze. Moi Louis XVIe du nom Roy de France, etant depuis plus de quatres mois enfermé avec ma famille dans la Tour du Temple a Paris, par ceux qui etoient mes sujets, et privé de toutte communication quelconque, mesme depuis le onze du courant avec ma famille de plus impliqué dans un Proces, dont il est impossible de prevoir l’issue a cause des passions des hommes, et dont on ne trouve aucun pretexte ni moyen dans aucune Loy existante, n’ayant que Dieu pour temoin de mes pensées et auquel je puisse m’adresser. je declare ici en sa presence mes dernieres volontés et mes sentiments._
 
@@ -67,28 +55,17 @@ _Je pardonne encore tres volontiers a ceux qui me gardoient, les mauvais traitem
 
 _Je prie Mrs de Malesherbes Tronchet et de Seze, de recevoir ici tous mes remerciments et l’expression de ma sensibilité, pour tous les soins et les peines qu’ils se sont donnés pour moi._
 
-_Je finis en declarant devant Dieu et pret a paroitre devant lui que je ne me reproche aucun des crimes qui sont avancés contre moi. _
+_Je finis en declarant devant Dieu et pret a paroitre devant lui que je ne me reproche aucun des crimes qui sont avancés contre moi._
 
-_**Fait double a la tour du Temple le 25 Decembre 1792. Louis [XVI]**
-_
-
+_**Fait double a la tour du Temple le 25 Decembre 1792. Louis [XVI]**_
 
 
 * * *
 
-
-
-
-
 Calqué par Pierre Piquet sur l’original écrit de la main du Roi. (**Numérisation** : Wikisource)
 
 
-
-
-
-
-
-* _Vous pouvez retrouver des livres écrits par François Hüe, huissier du roi Louis XVI et anobli à la restauration, [sur les serveurs de la rez.](ftp://rez:57zero@lgdubois.rez/livres/Francois%20Hue/Les%20dernieres%20annees%20du%20regne%20et%20de%20la%20vie%20de%20Louis%20XVI%20(376)/Les%20dernieres%20annees%20du%20regne%20et%20de%20la%20vie%20-%20Francois%20Hue.pdf)_
+\* Vous pouvez retrouver des livres écrits par François Hüe, huissier du roi Louis XVI et anobli à la restauration, [sur les serveurs de la rez.](ftp://rez:57zero@lgdubois.rez/livres/Francois%20Hue/Les%20dernieres%20annees%20du%20regne%20et%20de%20la%20vie%20de%20Louis%20XVI%20(376)/Les%20dernieres%20annees%20du%20regne%20et%20de%20la%20vie%20-%20Francois%20Hue.pdf)
 
 
 
