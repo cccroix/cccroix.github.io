@@ -81,7 +81,7 @@ ul, ol, dl, figure,
  * Images
  */
 img {
-    max-width: 100%;
+//    max-width: 100%;  // intense-images viewer was bugging
     vertical-align: middle;
 }
 
@@ -327,4 +327,9 @@ pre {
 img.church {
     max-width: 95%;
     max-height: $church-max-height;
+}
+
+img.viewing {
+    max-width: none;
+    max-height: none;
 }
