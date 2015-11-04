@@ -28,44 +28,23 @@ Crédit : Gallica
 
 **Remarque sur l'image** : [Guillaume de Digulleville](https://fr.wikipedia.org/wiki/Guillaume_de_Digulleville) était un moine de l'abbaye de Chaalis. Il a écrit divers poèmes dont _Le pélerinage de la vie humaine_ :
 
-<blockquote>
-A vis m'estoit si com dormoie
-Que je pelerins estoie
-
-Qui d'aler estoie excité
-
-En Jerusalem la cité.
-
-En .I. mirour, ce me sembloit,
-
-Qui sanz mesure grans estoit
-
-Celle cité aperceue
-
-Avoie de loing et veue.
-
-Mont me sembloit de grant atour
-
-Celle cité ens et entour.
-
-Les chemins et les alees
-
-D'or en estoient pavees,
-
-
-En haut assis son fondement
-
-Estoit et son maçonnement
-
-De vives pierres fait estoit
-
-Et haut mur entour la clooit.
-
-Mont i avoit de mansïons,
-
-De lieus et d'abitatïons.
-
-Là estoit toute leëce,
-
-Toute joie sans tristece.
-</blockquote>
+> A vis m'estoit si com dormoie  
+> Que je pelerins estoie  
+> Qui d'aler estoie excité  
+> En Jerusalem la cité.  
+> En .I. mirour, ce me sembloit,  
+> Qui sanz mesure grans estoit  
+> Celle cité aperceue  
+> Avoie de loing et veue.  
+> Mont me sembloit de grant atour  
+> Celle cité ens et entour.  
+> Les chemins et les alees  
+> D'or en estoient pavees,  
+> En haut assis son fondement  
+> Estoit et son maçonnement  
+> De vives pierres fait estoit  
+> Et haut mur entour la clooit.  
+> Mont i avoit de mansïons,  
+> De lieus et d'abitatïons.  
+> Là estoit toute leëce,  
+> Toute joie sans tristece.  
