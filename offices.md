@@ -12,9 +12,9 @@ published: true
 
 ## Liens utiles
 
-- Il y a une feuille paroissiale à jour pour les églises du Centre-Ville [à cette adresse](http://cathometz.fr/), dans la barre latérale droite (« Annonces »).
+- Il y a une feuille paroissiale à jour pour les églises du centre-ville de Metz [à cette adresse](http://cathometz.fr/), dans la barre latérale droite (« Annonces »).
 
-- Le site web des paroisses St Paul de l’Est messin a une [page notant les horaires des messes](https://sites.google.com/site/stpaulestmessin/home/horaires-des-messes-du-trimestre)
+- Le site web des paroisses St Paul de l’Est messin a une [page notant les horaires des messes](https://sites.google.com/site/stpaulestmessin/home/horaires-des-messes-du-trimestre), de même que [le blog de la Grange aux Bois](http://grangeauxbois.canalblog.com/) qui publie les feuilles paroissiales de cette communauté de paroisse.
 
 - Le dépliant de la [Mission Étudiante](http://www.metzionetudiante.net/), avec de nombreuses infos sur les activités de l’année, est disponible [à cette adresse](/files/depliant.pdf).
 
