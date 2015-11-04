@@ -92,6 +92,4 @@ Calqué par Pierre Piquet sur l’original écrit de la main du Roi. (**Numéris
 
 
 
-
-
-[![Fac-simile du testament de Louis XVI](http://gallica.bnf.fr/ark:/12148/bpt6k6307604t/f1.image.lowres)](http://gallica.bnf.fr/ark:/12148/bpt6k6307604t/f1.image)[Fac-simile du testament de Louis XVI, disponible sur _Gallica_ (Bibliothèque National de France)](http://gallica.bnf.fr/ark:/12148/bpt6k6307604t/f1.image)
+<div style="padding: 0; padding-bottom: 56.25%; position: relative;  display: block; height: 0; "><iframe style="position: absolute;  top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0;" src="http://gallica.bnf.fr/ark:/12148/bpt6k6307604t/f25.double.mini"></iframe></div>
