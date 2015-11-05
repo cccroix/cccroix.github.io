@@ -20,7 +20,7 @@ La plupart des réunions sont organisés conjointement avec **Chrétiens en Gran
 
 À CC†, plusieurs activités sont proposées dans l'année : rencontre nationale des [chrétiens en Grandes Écoles](http://www.cgenational.com/), [pèlerinage au Mont Sainte-Odile aux Rameaux](http://pelesteodile.free.fr)...
 
-Notre **aumônier catholique[![Pierre Guérigen](https://cccroixmetz.files.wordpress.com/2012/09/photo-3.jpg?w=150)](https://cccroixmetz.files.wordpress.com/2012/09/photo-3.jpg)** est l'abbé** Pierre Guerigen, **qui gère l'aumônerie des universités, mais aussi le service des vocations du diocèse de Metz.
+Notre **aumônier catholique ![Pierre Guérigen]({{ site.baseurl }}/img/wp/photo-3.jpg)** est l'abbé** Pierre Guerigen, **qui gère l'aumônerie des universités, mais aussi le service des vocations du diocèse de Metz.
 
 Pour s'inscrire au CC†, il suffit de remplir le formulaire ci-dessous. Pas d'hésitation : la CC†, c'est aussi le seul alias qui ne spamme pas pour rien !
 
