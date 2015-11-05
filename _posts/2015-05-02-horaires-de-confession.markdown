@@ -17,6 +17,6 @@ Une [nouvelle page](/confessions/) agrégeant tous les horaires de confession de
 N'hésitez pas à transmettre à <c@rezometz.fr> si vous avez d'autres horaires !
 
 
-[![Le retour du fils prodigue, Rembrandt](https://cccroixmetz.files.wordpress.com/2015/05/le-retour-du-fils-prodigue-rembrandt.jpg?w=238)](https://cccroixmetz.files.wordpress.com/2015/05/le-retour-du-fils-prodigue-rembrandt.jpg)
+<img alt="Le retour du fils prodigue, Rembrandt" class="intense" src="{{ site.baseurl }}/img/wp/le-retour-du-fils-prodigue-rembrandt.jpg" />
 
 Le retour du fils prodigue, Rembrandt

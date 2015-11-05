@@ -15,7 +15,7 @@ tags:
 
 Vendredi 12 décembre aura lieu le prochain partage d'Évangile. Prévenez Thibaud si vous voulez venir !
 
-<img alt="L'Immaculée Conception, Rubens, 1628-1629" src="https://cccroixmetz.files.wordpress.com/2014/12/412px-0_limmaculc3a9e_conception_-_p-p-_rubens_-_prado_-_p1627_-_2.jpg" class="intense" />
+<img alt="L'Immaculée Conception, Rubens, 1628-1629" src="{{ site.baseurl }}/img/wp/412px-0_limmaculc3a9e_conception_-_p-p-_rubens_-_prado_-_p1627_-_2.jpg" class="intense" />
 
 *L'Immaculée Conception*, Rubens, 1628-1629
 

@@ -25,12 +25,15 @@ J'ai notamment refait le logo :
 
 
 	
-  * ancien logo : [![cropped-logometz.png](http://cccroixmetz.files.wordpress.com/2012/09/cropped-logometz.png?w=150)](http://cccroixmetz.files.wordpress.com/2012/09/cropped-logometz.png)
+  * ancien logo : <img alt="ancien logo" src="{{ site.baseurl }}/img/wp/cropped-logometz.png" style="max-height: 3cm;" />
 
 	
-  * nouveau logo : [![cropped-path6479.png](http://cccroixmetz.files.wordpress.com/2014/09/cropped-path6479.png?w=136)](http://cccroixmetz.files.wordpress.com/2014/09/cropped-path6479.png)
+  * nouveau logo : <img alt="nouveau logo" src="{{ site.baseurl }}/img/wp/cropped-path6479.png" style="max-height: 3cm;" />
 
 
 Pour avoir un aperçu du changement, voici des captures d'écran de l'ancien site :
 
-[![ancien2](http://cccroixmetz.files.wordpress.com/2014/09/ancien2.png?w=300)](https://cccroixmetz.files.wordpress.com/2014/09/ancien2.png) [![ancien1](http://cccroixmetz.files.wordpress.com/2014/09/ancien1.png?w=300)](https://cccroixmetz.files.wordpress.com/2014/09/ancien1.png)
+<img src="{{ site.baseurl }}/img/wp/ancien1.png" class="intense" alt="ancien site" />
+
+<img src="{{ site.baseurl }}/img/wp/ancien2.png" class="intense" alt="ancien site" />
+

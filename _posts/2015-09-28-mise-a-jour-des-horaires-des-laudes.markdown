@@ -21,7 +21,7 @@ Ce sont :
 - **Jeudi** : Cyprien C00
 - **Vendredi** : Luc C211
 
-![ Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390 Crédit : Gallica](https://cccroixmetz.files.wordpress.com/2015/09/consulterelementnum.jpeg)
+![ Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390 Crédit : Gallica]({{ site.baseurl }}/img/wp/consulterelementnum.jpeg)
 
 Français 829, fol. 83v, Guillaume de Digulleville priant la Vierge Marie, ~1390  
 Crédit : Gallica

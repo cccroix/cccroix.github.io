@@ -14,4 +14,4 @@ tags:
 
 Nouveau partage d'Évangile vendredi 23 janvier. N'hésitez pas à venir !
 
-[![Louis XVI](https://cccroixmetz.files.wordpress.com/2015/01/f1-highres.jpeg?w=300)](http://gallica.bnf.fr/ark:/12148/btv1b69468848.r=messe+Louis+XVI.langFR)
+[![Louis XVI]({{ site.baseurl }}/img/wp/f1-highres.jpeg)](http://gallica.bnf.fr/ark:/12148/btv1b69468848.r=messe+Louis+XVI.langFR)
