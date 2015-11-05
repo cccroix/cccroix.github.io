@@ -10,3 +10,7 @@ insearch: true
 Ce site web, encore en construction, est destiné à remplacer [l’ancien site de la CC†](https://cccroixmetz.wordpress.com/).
 
 La **CC†** est la **C**ommunauté **C**hrétienne des étudiants du campus de Metz de CentraleSupélec.
+
+Pour information, l’ancien site ressemblait à ça :
+
+![ancien wordpress]({{ site.baseurl }}/img/wordpress_cc.png)
