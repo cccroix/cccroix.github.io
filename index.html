@@ -55,7 +55,9 @@ nav: false
         <h1>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h1>
+        <div class="list-content">
         {{ post.content }}
+        </div>
       </li>
     {% endfor %}
   </ul>
