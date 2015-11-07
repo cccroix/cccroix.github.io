@@ -233,6 +233,7 @@
     .post-excerpt {
         margin-bottom: $spacing-unit / 2;
         padding: 0.5em;
+        border-bottom: 1em solid $grey-color;
     }
 }
 
@@ -247,10 +248,8 @@
 }
 
 .list-content {
-    /*font-size:0.9em;*/
-    color: $grey-color-dark;
     border-radius: 10px;
-    background:#F8F8F8;
+    background: $grey-color-light;
 }
 
 /* Centerize images */

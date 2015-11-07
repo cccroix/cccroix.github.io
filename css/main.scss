@@ -13,15 +13,15 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$grey-color:       #828282;
+$grey-color-dark:  darken($grey-color, 25%);
+$grey-color-light: lighten($grey-color, 50%);
+
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: $grey-color-light;
 $brand-color:      #2a7ae2;
 
 $article-background-color: #ECF4FF;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 $orange-color-rss: #FF7C00;
 $orange-color-note: #FFFD8A;
