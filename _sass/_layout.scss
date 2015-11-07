@@ -247,11 +247,13 @@
 }
 
 .list-content {
-    // font-size:0.9em;
-    color: black;
+    font-size:0.9em;
+    color: $grey-color-dark;
     border-radius: 10px;
+    background:$grey-color-light;
 }
 
+/* Centerize images */
 .list-content img {
     max-width: 95%;
     display: block;
