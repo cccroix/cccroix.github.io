@@ -230,7 +230,7 @@
 .post-list {
     margin-left: 0;
     list-style: none;
-    li {
+    .post-excerpt {
         margin-bottom: $spacing-unit / 2;
         padding: 0.5em;
     }
