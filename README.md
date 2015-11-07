@@ -30,5 +30,5 @@ Les images doivent être dans des dossiers du type 201510 (pour le mois d'octobr
 
 Pour les utiliser, on utilise ensuite la syntaxe suivante :
 ````
-    ![titre_de_l'image]({{ basesite.url }}/img/201510/nom_image.jpg)
+    ![titre_de_l'image]({{ site.baseurl }}/img/201510/nom_image.jpg)
 ````
