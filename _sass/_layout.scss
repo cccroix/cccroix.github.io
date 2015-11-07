@@ -3,18 +3,18 @@
 */
 
 .padding {
-  padding: 30px;
+  padding: $spacing-unit;
 }
 
 .padding-notes {
   padding-left: 5px;
-  padding-right: 30px;
+  padding-right: $spacing-unit;
 }
 
 .padding-feeds {
-  margin-top: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
+  margin-top: $spacing-unit;
+  padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
   text-align: justify;
   @include media-query($on-sm) {
       display: none;
@@ -22,13 +22,20 @@
 }
 
 .container {
-  padding-top: 30px;
+  padding-top: 2 * $spacing-unit;
+  padding-bottom: 2 * $spacing-unit;
+  background-image: url("/img/back.jpg");
 }
 
 .one_col {
   max-width: 900px;
   margin: auto;
   padding: 5%;
+}
+
+.main {
+    background-color: $background-color;
+    border-radius: $spacing-unit;
 }
 
 
@@ -90,7 +97,7 @@
         position: absolute;
         z-index: 10;
         top: 9px;
-        right: 30px;
+        right: $spacing-unit;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
@@ -223,6 +230,10 @@
 .post-list {
     margin-left: 0;
     list-style: none;
+    li {
+        margin-bottom: $spacing-unit / 2;
+        padding: 0.5em;
+    }
 }
 
 .post-meta {
@@ -237,25 +248,21 @@
 
 .list-content {
     font-size:0.9em;
-    color:$grey-color;
-    background:$grey-color-light;
+    color: black;
+    border-radius: 10px;
 }
 
 .list-content img {
-    width: 50%;
+    max-width: 95%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.list-content p::first-letter {
-    font-size: 150%;
-}
-
 @media(min-width:600px) {
     .list-content{
-        margin-left:5em;
-        padding:0.5em;
+        margin-left: 1em;
+        padding: 1em;
     }
 }
 
