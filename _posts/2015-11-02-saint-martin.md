@@ -6,7 +6,7 @@ date: 2015-11-02 00:04:23 CET
 categories: agenda
 ---
 
-Toute la journée à l’église Saint-Martin
+Toute la journée à l’[église Saint-Martin]({{ site.baseurl}}/eglises/martin.html) :
 
 - 8h30 : Laudes
 - 9h-12h : Adoration
