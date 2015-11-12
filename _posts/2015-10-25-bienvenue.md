@@ -13,4 +13,4 @@ La **CC†** est la **C**ommunauté **C**hrétienne des étudiants du campus de 
 
 Pour information, l’ancien site ressemblait à ça :
 
-![ancien wordpress]({{ site.baseurl }}/img/wordpress_cc.png)
+<img alt="ancien wordpress" class="intense" src="{{ site.baseurl }}/img/wordpress_cc.png" />
