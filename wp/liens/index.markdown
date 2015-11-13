@@ -23,6 +23,7 @@ Le meilleur de l’information et de la réflexion :
 * Documentation catholique : [catho.org](http://catho.org/)
 * L’Anné Liturgique : [Dom Guéranger](http://www.abbaye-saint-benoit.ch/gueranger/anneliturgique/index.htm)
 * Formation chrétienne : [Salve Regina](http://www.salve-regina.com/)
+* Œuvres complètes de S<sup>t</sup> Thomas d'Aquin : [Docteur angélique](http://docteurangelique.free.fr/saint_thomas_d_aquin/oeuvres_completes.html)
 * Incontournable blog de trois jeunes prêtres : [Padreblog](http://www.padreblog.fr/)
 * Blog d'actualité par des laïcs catholiques : [le Salon Beige](http://lesalonbeige.blogs.com/)
 * Anti-chroniques du temps présents (par des étudiants chrétiens) : [Le Rouge & le Noir](http://www.lerougeetlenoir.org/)
