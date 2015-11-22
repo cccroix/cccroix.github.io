@@ -20,6 +20,9 @@ Voici quelques liens utiles :
 
 Le meilleur de l’information et de la réflexion :
 
+* Abbé Laguérie :
+  - Catéchisme pour adulte : [YouTube](https://www.youtube.com/playlist?list=PLqpHp03iF-PcFIwgwVhptdXZ2rtfIgJhN)
+  - Liturgie pour les nuls : [YouTube](https://www.youtube.com/playlist?list=PLqpHp03iF-PfFqACzE0ModHYKv5OddyUO)
 * Documentation catholique : [catho.org](http://catho.org/)
 * L’Anné Liturgique : [Dom Guéranger](http://www.abbaye-saint-benoit.ch/gueranger/anneliturgique/index.htm)
 * Formation chrétienne : [Salve Regina](http://www.salve-regina.com/)
