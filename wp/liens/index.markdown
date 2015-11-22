@@ -1,7 +1,7 @@
 ---
 author: LGD
 comments: false
-date: 2015-10-31 14:30:00 CET
+date: 2015-11-22 21:00:00 CET
 layout: page
 slug: liens
 title: Liens
@@ -21,7 +21,7 @@ Voici quelques liens utiles :
 Le meilleur de l’information et de la réflexion :
 
 * Abbé Laguérie :
-  - Catéchisme pour adulte : [YouTube](https://www.youtube.com/playlist?list=PLqpHp03iF-PcFIwgwVhptdXZ2rtfIgJhN)
+  - Catéchisme pour adultes : [YouTube](https://www.youtube.com/playlist?list=PLqpHp03iF-PcFIwgwVhptdXZ2rtfIgJhN)
   - Liturgie pour les nuls : [YouTube](https://www.youtube.com/playlist?list=PLqpHp03iF-PfFqACzE0ModHYKv5OddyUO)
 * Documentation catholique : [catho.org](http://catho.org/)
 * L’Anné Liturgique : [Dom Guéranger](http://www.abbaye-saint-benoit.ch/gueranger/anneliturgique/index.htm)
