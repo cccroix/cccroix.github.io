@@ -13,6 +13,5 @@ Venez nombreux !
 
 [Texte sur wikipedia](https://fr.wikipedia.org/wiki/Ang%C3%A9lus)
 
-<img alt="L'*Angelus*, Millet, 1859" class="intense" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Jean-Fran%C3%A7ois_Millet_Angelus.jpg" />
-
-
+<img alt="L'Angelus, Millet, 1859" class="intense" src="https://upload.wikimedia.org/wikipedia/commons/5/57/Jean-Fran%C3%A7ois_Millet_Angelus.jpg" />
+L'*Angelus*, Millet, 1859
