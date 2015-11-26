@@ -9,4 +9,4 @@ published: true
 
 ### Vendredi 4 décembre : partage d’évangile
 
-### Samedi 5 décembre : rosaire à [Sainte-Thérèse](/eglises/therese.html) (**17h**)
+### Samedi 5 décembre : rosaire à [Sainte Ségolène](/eglises/segolene.html) (**17h**)
