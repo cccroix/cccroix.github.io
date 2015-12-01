@@ -2,11 +2,11 @@
 layout: post
 title: L'angélus du matin sera désormais chanté !
 author: luc
-date: 2015-11-24 19:09:35 CET
+date: 2015-12-01 19:24:35 CET
 categories: nouvelles
 ---
 
-Afin de mieux chanter l'angélus de 8h15 (en C211), je viens d'en terminer la mise en page d'une [partition grégorienne](/files/2015-12-01-angelus.pdf).
+Afin de mieux chanter l'angélus de 8h15 (en C211), je viens d'en terminer la mise en page d'une [partition grégorienne]({{ site.baseurl }}/files/2015-12-01-angelus.pdf).
 
 Une interprétation de cet angélus est disponible sur youtube ci-dessous, chanté par la congrégation catholique syro-malankare des *Daughters of Mary* (filles de Marie), avec toutefois un autre *ave maria* que celui de notre document :
 
