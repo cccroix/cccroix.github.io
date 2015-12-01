@@ -23,4 +23,4 @@ Et enfin, voici la partition tant attendue :
 </object>
 
 
-Pour l'aspect technique, ce document a été réalisé avec LuaLateX et avec [*Gregorio*](https://gregorio-project.github.io/). Les partitions sont au format *gabc*. L'ensemble des sources sera prochainement déposé sur github, sous licence CC-BY.
+Pour l'aspect technique, ce document a été réalisé avec LuaLateX et avec [*Gregorio*](https://gregorio-project.github.io/). Les partitions sont au format *gabc*. L'ensemble des sources est [sur github](https://github.com/cccroix/Angelus).
