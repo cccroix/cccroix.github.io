@@ -18,8 +18,8 @@ L'*ave maria* qui est sur la version actuelle de notre partition est ici chanté
 
 Et enfin, voici la partition tant attendue :
 
-<object data="files/2015-12-01-angelus.pdf" type="application/pdf" width="80%" height="500">
-  alt : <a href="files/2015-12-01-angelus.pdf">files/2015-12-01-angelus.pdf</a>
+<object data="{{ site.baseurl }}/files/2015-12-01-angelus.pdf" type="application/pdf" width="100%" height="1200px">
+  alt : <a href="files/2015-12-01-angelus.pdf">{{ site.baseurl }}/files/2015-12-01-angelus.pdf</a>
 </object>
 
 
