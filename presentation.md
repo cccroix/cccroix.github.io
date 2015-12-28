@@ -15,14 +15,13 @@ published: true
 }
 </style>
 
-# La **CC†** *(CC-Croix)*, c’est quoi ?
+# La **CC†** (ou *CC-Croix* ou *CC+*), c’est quoi ?
 
-La **CC†**, c'est la **Communauté Chrétienne** du campus [messin](https://fr.wikipedia.org/wiki/Messin) de CentraleSupélec *(feu Supélec Metz)* : un club superposé à l'aumônerie du diocèse qui se réunit à l'initiative des personnes de bonnes volonté qui ont envie de prier, parler, débattre ou bien apprendre sur un thème de leur choix en rapport avec la religion.
+La **CC†**, c’est la **Communauté Chrétienne** du campus [messin](https://fr.wikipedia.org/wiki/Messin) de CentraleSupélec *(feu Supélec Metz)* : un cercle, sous-groupe de l'aumônerie du diocèse de Metz, de chrétiens étudiant sur le campus, ouvert à tous ceux qui souhaitent prier, parler, débattre ou bien apprendre sur un thème de leur choix en rapport avec la religion.
 
 Notre **aumônier** catholique est l’abbé [**Patrick Muller**](http://cathometz.fr/pretres-et-eap/), vicaire à la paroisse [Notre-Dame](/eglises/nd.html) et aumônier diocésain des étudiants.
 
 <img alt="M. l’abbé Patrick Muller" src="/img/Muller_Patrick.jpg" class="trombi" />
-
 
 # Quelles sont les activités proposées ?
 
@@ -37,4 +36,4 @@ En outres, des activités plus fréquentes sont organisées à **Metz**, comme 
 
 - des **partages d’évangiles** (ou *lectio divina*) précédés d’un dîner chez une famille messine ;
 - des rencontres hebdomadaires conviviales à l’[aumônerie étudiante du Saulcy](http://www.metzionetudiante.net) ;
-- et bien sûr des messes célébrées en centre-ville ou près du campus.
+- et bien sûr la participation à la **messe**, célébrée en centre-ville ou près du campus : *Sacrifice de la nouvelle alliance, source de toutes les grâces et bénédictions du Ciel, Saints Mystères, source et sommet de toute vie chrétienne !*
