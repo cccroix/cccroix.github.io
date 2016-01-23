@@ -7,4 +7,4 @@ published: true
 
 - **Vendredi 5 février :** partage d’Évangile
 - **Vendredi 26 février :** partage d'Évangile
-- *Samedi 12 - Dimanche 13 mars :** week-end à Argancy
+- **Samedi 12 - Dimanche 13 mars :** week-end à Argancy
