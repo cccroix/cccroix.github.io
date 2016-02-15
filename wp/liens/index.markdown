@@ -37,7 +37,7 @@ Liens institutionnels et associatifs :
 * Le Saint-Siège : [vatican.va](http://www.vatican.va)
 * Vatican  News : [news.va](http://www.news.va/fr)
 * La [Marche pour la Vie](http://enmarchepourlavie.fr/)
-* Conférence des Évèques de France : [actualités](http://www.eglise.catholique.fr/)
+* Conférence des Évêques de France : [actualités](http://www.eglise.catholique.fr/)
 * Aide à l'Église en Détresse : [actualités](http://www.aed-france.org/actualite/a-la-une/)
 * Persécutions : [Observatoire de la christianophobie](http://www.christianophobie.fr/)
 * Racisme anti-chrétien : [L’AGRIF](http://www.lagrif.fr/)
