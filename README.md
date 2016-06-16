@@ -10,6 +10,14 @@ Ce site est hébergé sur **github** en utilisant cf. [Jekyll with GitHub Pages]
 
 Nous vous invitons fortement à prendre connaissance de la documentation de Jekyll avant de contribuer.
 
+### Serveur de développement
+
+À exécuter dans le dossier contenant ce fichier (`README.md`):
+```sh
+bundle
+bundle exec jekyll serve
+```
+
 ### Bibliothèques utilisées (*used libraries*)
 
 - Animation CSS : [WOW.js](https://github.com/matthieua/WOW)
