@@ -1,7 +1,7 @@
 ---
 author: LGD
 comments: false
-date: 2016-09-16 18:00:00 CEST
+date: 2016-09-17 15:00:00 CEST
 layout: page
 slug: liens
 title: Liens
@@ -31,7 +31,7 @@ Ressources liturgiques :
 
 * Catéchisme pour adultes : [YouTube](https://www.youtube.com/playlist?list=PLqpHp03iF-PcFIwgwVhptdXZ2rtfIgJhN)
 * [Catéchismes](http://catechisme.free.fr/)
-* Meilleure bible en française : [Bible de Port-Royal](https://fr.wikisource.org/wiki/Bible_Sacy)
+* Meilleure bible en français : [Bible de Port-Royal](https://fr.wikisource.org/wiki/Bible_Sacy)
 * [Enchiridion Symbolorum (Denzinger)](http://catho.org/9.php?d=g0)
 * Ressources numériques catholiques : [catho.org](http://catho.org/)
 * [Bibliothèque numérique de l’Abbaye Saint-Benoît](http://www.abbaye-saint-benoit.ch/bibliotheque.htm)
