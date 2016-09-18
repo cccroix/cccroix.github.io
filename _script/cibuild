@@ -2,4 +2,6 @@
 set -e # halt script on error
 
 bundle exec jekyll build --trace
-bundle exec htmlproof ./_site --verbose
+bundle exec htmlproofer ./_site
+
+exit 0;
