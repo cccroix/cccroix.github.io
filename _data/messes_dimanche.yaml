@@ -5,12 +5,13 @@
 
 # Proche
 
-- eglise: bernard
-  horaire: 10h
-  remarque: forme extraordinaire, grégorien, hors vacances scolaires
+- eglise: immaculee
+  horaire: 9h
+  remarque: messe selon le missel traditionnel romain, grégorien, hors vacances scolaires
   site: http://motuproprio-metz.e-monsite.com/
 
 - eglise: nativite
+  remarque: messe basse, selon le missel traditionnel romain
   horaire: 9h
 
 - eglise: immaculee
@@ -18,6 +19,7 @@
   site: http://ame-metz.com/index.php/horaire-des-messes#year=2014&month=9&day=21&view=month
 
 - eglise: nativite
+  remarque: grand’messe, selon le missel traditionnel romain, grégorien
   horaire: 10h30
 
 - eglise: pierre
