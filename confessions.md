@@ -24,7 +24,7 @@ published: true
 
 Les horaires ci-dessous sont soumis aux aléas du temps. Il est donc conseillé de vérifier préalablement si l'on ne souhaite pas se casser le nez. Pour être sûr de trouver un prêtre, la meilleure solution reste de viser les messes.
 
-Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire, ou entre 16h et 17h).
+Les confessions sont en revanche toujours assurées à la cathédrale Saint Étienne aux horaires indiqués (soit : après la messe capitulaire, ou entre 16h et 17h), ainsi qu’à la chapelle de la Nativité de la Très-Sainte-Vierge Marie aux horaires indiqués ci-dessous (le samedi et le dimanche).
 
 {% assign semaine = "lundi mardi mercredi jeudi vendredi samedi dimanche" | split: ' ' %}
 

@@ -2,6 +2,6 @@
 set -e # halt script on error
 
 bundle exec jekyll build --trace
-bundle exec htmlproofer ./_site
+bundle exec htmlproofer _site --disable-external --check-html
 
 exit 0;
