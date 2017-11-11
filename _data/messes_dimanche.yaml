@@ -10,17 +10,9 @@
   remarque: messe selon le missel traditionnel romain, grégorien, hors vacances scolaires
   site: http://motuproprio-metz.e-monsite.com/
 
-- eglise: nativite
-  remarque: messe basse, selon le missel traditionnel romain
-  horaire: 9h
-
 - eglise: immaculee
   horaire: 10h30
   site: http://ame-metz.com/index.php/horaire-des-messes#year=2014&month=9&day=21&view=month
-
-- eglise: nativite
-  remarque: grand’messe, selon le missel traditionnel romain, grégorien
-  horaire: 10h30
 
 - eglise: pierre
   horaire: 11h
@@ -33,6 +25,10 @@
 
 - eglise: etienne
   horaire: 8h
+
+- eglise: nativite
+  remarque: messe basse, selon le missel traditionnel romain
+  horaire: 9h
 
 - eglise: maximin
   horaire: 9h
@@ -47,6 +43,10 @@
 
 - eglise: simon
   horaire: 10h15
+
+- eglise: nativite
+  remarque: grand’messe, selon le missel traditionnel romain, grégorien
+  horaire: 10h30
 
 - eglise: clement
   horaire: 10h30
