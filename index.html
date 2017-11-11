@@ -6,7 +6,7 @@ nav: false
 
 <div class="home">
 
-  <h1 class="page-heading wow flipInX" data-wow-duration="3s">Articles
+  <h1 class="page-heading wow jello" data-wow-duration="3s">Articles
     <span class="source">
         {% if site.default_text %}
         <a id="add_link" href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/new/master/?filename={{ '_posts/' | cgi_escape }}AAAA-MM-JJ-mon-titre.md&amp;value={{ site.default_text | cgi_escape }}">
@@ -47,7 +47,7 @@ nav: false
 
   <ul class="post-list">
     {% for post in paginator.posts %}
-      <li class="post-excerpt wow fadeInRight">
+      <li class="post-excerpt wow tada">
         <span class="post-meta">
             {% include date.html date=post.date %}
         </span>

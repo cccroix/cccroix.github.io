@@ -4,7 +4,7 @@ layout: two_cols
 
 <div itemscope itemtype="http://schema.org/Article" class="page">
 
-  <header class="post-header wow slideInLeft">
+  <header class="post-header wow flip">
     <h1 itemprop="name" class="post-title">{{ page.title }}
         <span class="source">
              {% include edit.html path=page.path %}
@@ -24,7 +24,7 @@ layout: two_cols
         </p>
   </header>
 
-  <article itemprop="articleBody" class="post-content wow slideInRight">
+  <article itemprop="articleBody" class="post-content wow rotateIn">
     {{ content }}
   </article>
 
