@@ -34,6 +34,8 @@ markdown: kramdown
 sass:
     style: compressed
 
-plugins:
+plugins_dir:
     - jekyll-redirect-from
     - jekyll-paginate
+
+gems: [jekyll-paginate]
