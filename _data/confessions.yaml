@@ -33,14 +33,14 @@
      - vendredi
      - samedi
   horaire: 9h40
-
+ 
  - eglise: nativite
   jour: 
      - dimanche
   horaire: 10h
   horairefin: 10h30
-  remarque: "Avant la grand’messe, possible sur demande après la messe."
-
+  remarque:  "Avant la grand’messe, possible sur demande après la messe."
+ 
 - eglise: etienne
   jour: 
      - mardi
@@ -54,7 +54,7 @@
 
 - eglise: eucaire
   jour: 
-     - lundi
+     - lundi	
   horaire: 17h30
   horairefin: 18h
 
