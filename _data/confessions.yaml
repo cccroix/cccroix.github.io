@@ -34,12 +34,12 @@
      - samedi
   horaire: 9h40
  
- - eglise: nativite
+- eglise: nativite
   jour: 
      - dimanche
   horaire: 10h
   horairefin: 10h30
-  remarque:  "Avant la grand’messe, possible sur demande après la messe."
+  remarque: Avant la messe, possible sur demande après la messe.
  
 - eglise: etienne
   jour: 
@@ -119,7 +119,7 @@
      - samedi
   horaire: 18h
   horairefin: 18h30
-  remarque: "Avant la messe du samedi, possible sur demande après la messe."
+  remarque: Avant la messe du samedi, possible sur demande après la messe.
 
 - eglise: segolene
   jour: 
