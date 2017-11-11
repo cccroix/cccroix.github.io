@@ -19,6 +19,12 @@
   horairefin: 9h
   remarque: accueil rue de la Tour aux Rats
 
+- eglise: nativite
+  jour: 
+     - dimanche
+  horaire: 8h30
+  horairefin: 9h
+
 - eglise: etienne
   jour: 
      - lundi
@@ -28,6 +34,13 @@
      - vendredi
      - samedi
   horaire: 9h40
+ 
+ - eglise: nativite
+  jour: 
+     - dimanche
+  horaire: 10h
+  horairefin: 10h30
+  remarque:  Avant la grand’messe, possible sur demande après la messe.
  
 - eglise: etienne
   jour: 
@@ -101,6 +114,13 @@
      - jeudi
   horaire: 17h30
   horairefin: 18h
+
+- eglise: nativite
+  jour: 
+     - samedi
+  horaire: 18h
+  horairefin: 18h30
+  remarque: Avant la messe du samedi, possible sur demande après la messe.
 
 - eglise: segolene
   jour: 
