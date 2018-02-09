@@ -341,3 +341,12 @@ img.viewing {
     max-width: none;
     max-height: none;
 }
+
+/**
+ * Calendrier à gauche/droit
+ */
+.calendar-col {
+  background-color: $background-color;
+  padding: 5px;
+  border-radius: 2px;
+}

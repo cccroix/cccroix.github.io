@@ -53,7 +53,22 @@ layout: default
 
   <div class="pure-u-1 pure-u-sm-1 pure-u-md-5-24">
     <div class="padding">
-      {% comment %}TODO{% endcomment %}
+        <script>
+        $(document).ready(function() {
+          $('#calendar-row').fullCalendar({
+            locale: 'fr',
+            defaultView: 'listMonth',
+            eventLimit: true,
+            events: {
+              url: '{{ site.baseurl }}/calendar-events.json',
+              cache: true
+            }
+          });
+        });
+        </script>
+        <div class='calendar-col'>
+          <div id='calendar-row'></div>
+        </div>
     </div>
   </div><!-- pure-u-4-5 -->
 
