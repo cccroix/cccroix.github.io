@@ -5,4 +5,4 @@ published: true
 # sera affiché avant l’index des articles
 ---
 
-Bonne rentrée !
+👌 N’oubliez pas de profiter du tout nouveau calendrier !
