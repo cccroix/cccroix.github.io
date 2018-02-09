@@ -14,6 +14,7 @@ Nous vous invitons fortement à prendre connaissance de la documentation de Jeky
 
 À exécuter dans le dossier contenant ce fichier (`README.md`):
 ```sh
+gem install jekyll bundler
 bundle
 bundle exec jekyll serve
 ```
@@ -26,6 +27,7 @@ bundle exec jekyll serve
 - Images en plein écran : [intense-images](https://github.com/tholman/intense-images)
 - Icônes : [Font Awesome](http://fontawesome.io/)
 - Recherche : [Tipue Search](https://github.com/Tipue/Tipue-Search)
+- Calendrier : [FullCalendar](https://fullcalendar.io)
 
 ### Crédits
 
