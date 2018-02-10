@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: one_col
 title: Activités de la CC†
 permalink: /agenda/
 date: 2018-02-09 08:00:00 CET
