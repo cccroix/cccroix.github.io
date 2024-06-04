@@ -1,4 +1,4 @@
-# Site web de la CC† Metz (communauté chrétienne de CentraleSupélec — campus de Metz)
+# [ARCHIVE] (Ancien) site web de la CC† Metz (communauté chrétienne de CentraleSupélec — campus de Metz)
 
 [![Build Status](https://travis-ci.org/cccroix/cccroix.github.io.svg)](https://travis-ci.org/cccroix/cccroix.github.io)
 
