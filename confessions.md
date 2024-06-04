@@ -7,7 +7,7 @@ author: luc
 nav: Confessions
 blocnote: true
 position: 3
-published: true
+published: false
 ---
 
 {% assign confessions = site.data.confessions %}

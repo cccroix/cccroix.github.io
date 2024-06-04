@@ -7,7 +7,7 @@ date: 2015-10-30 19:00:00 CET
 author: LGD
 nav: Qui sommes-nous ?
 position: 1
-published: true
+published: false
 ---
 <style>
 .trombi {

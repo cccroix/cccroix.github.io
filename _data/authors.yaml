@@ -3,17 +3,17 @@ LGD:
   lastname: Dubois
   email: contact@lgdubois.fr
   github: LGD-Fr
-  site: http://www.lgdubois.fr
+  site: https://www.lgdubois.fr
 
 luc:
   firstname: Luc
   lastname: Absil
-  email: luc.absil@supelec.fr
+  email: luc@absil.fr
   github: luc--
-  site: http://luc.absil.fr
+  site: https://luc.absil.fr
   
 guillaume:
   firstname: Guillaume
   lastname: Bouchez
-  email: guillaume.bouchez@supelec.fr
+  email: ""
   github: Guillaume-Bou
